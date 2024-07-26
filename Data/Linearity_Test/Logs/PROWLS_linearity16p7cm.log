@@ -1,0 +1,25 @@
+2024-06-24 14:55:27,610 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-24 14:55:28,669 - INFO - Connected to: DLCsmartTHz
+2024-06-24 14:55:28,670 - INFO - Current User Level: 3
+2024-06-24 14:55:29,751 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-24 14:55:29,759 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-24 14:55:35,838 - INFO - Lasers on: True
+2024-06-24 14:55:41,933 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-24 14:55:41,943 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-24 14:55:41,953 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-06-24 14:55:58,019 - INFO - Current DLC Smart Frequency (GHz): 179.99900921821245
+2024-06-24 14:55:58,426 - INFO - Current Lock-in Sensitivity setting: 14
+
+2024-06-24 14:55:58,898 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-06-24 14:55:58,933 - INFO - Sampling Rate (samples/second): 500
+2024-06-24 14:55:58,934 - INFO - Total Duration (seconds): 10
+2024-06-24 14:55:58,934 - INFO - Time Interval (seconds): 0.002
+2024-06-24 14:55:58,935 - INFO - BEGINNING DATA ACQUISITION
+2024-06-24 14:56:08,949 - INFO - DATA ACQUISITION COMPLETE
+2024-06-24 14:56:08,989 - INFO - The data has been saved to time_vs_vlockin_linearity16p7cm.csv, previous file may have been overwritten.
+2024-06-24 14:56:09,197 - INFO - The data has been saved to time_vs_vlockin_linearity16p7cm.png, previous file may have been overwritten.
+2024-06-24 14:56:10,422 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-24 14:56:10,433 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-24 14:56:16,498 - INFO - Lasers on: False

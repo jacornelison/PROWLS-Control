@@ -1,0 +1,29 @@
+2024-07-15 11:21:39,084 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-15 11:21:40,135 - INFO - Connected to: DLCsmartTHz
+2024-07-15 11:21:40,136 - INFO - Current User Level: 3
+2024-07-15 11:21:41,208 - INFO - Lasers on: True
+2024-07-15 11:21:47,300 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-15 11:21:47,315 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-15 11:21:47,325 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-15 11:21:53,385 - INFO - Current Laser Frequency (GHz): 179.99784496429493
+2024-07-15 11:21:54,093 - INFO - Current Lock-in Sensitivity setting: 17
+
+2024-07-15 11:21:54,108 - INFO - Current Time Constant: 8
+
+2024-07-15 11:21:54,115 - INFO - Current Low Pass Filter: 0
+
+2024-07-15 11:21:54,125 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-15 11:21:54,132 - INFO - Waiting the 0 second warm-up time
+2024-07-15 11:21:54,151 - INFO - Sampling Rate (samples/second): 5
+2024-07-15 11:21:54,151 - INFO - Total Duration (seconds): 1800
+2024-07-15 11:21:54,152 - INFO - Time Interval (seconds): 0.2
+2024-07-15 11:21:54,153 - INFO - BEGINNING DATA ACQUISITION
+2024-07-15 11:51:54,160 - INFO - DATA ACQUISITION COMPLETE
+2024-07-15 11:51:54,204 - INFO - The data has been saved to ../Data//Baseline_Daily/Tables/time_vs_vlockin_baseline3_7-15-24.csv, previous file may have been overwritten.
+2024-07-15 11:51:54,418 - INFO - The data has been saved to ../Data//Baseline_Daily/Plots/time_vs_vlockin_baseline3_7-15-24.png, previous file may have been overwritten.
+2024-07-15 11:51:55,585 - INFO - PROWLS did NOT power down
+2024-07-15 11:51:55,592 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-15 11:51:55,600 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-15 11:51:55,607 - INFO - Lasers on: True

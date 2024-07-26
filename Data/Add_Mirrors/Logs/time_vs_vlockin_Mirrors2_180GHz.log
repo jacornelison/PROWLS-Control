@@ -1,0 +1,31 @@
+2024-07-01 16:08:08,057 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-01 16:09:33,112 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-01 16:09:34,164 - INFO - Connected to: DLCsmartTHz
+2024-07-01 16:09:34,165 - INFO - Current User Level: 2
+2024-07-01 16:09:35,229 - INFO - Lasers on: True
+2024-07-01 16:09:41,311 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-01 16:09:41,322 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-01 16:09:41,339 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-01 16:09:47,394 - INFO - Current Laser Frequency (GHz): 180.00086240947712
+2024-07-01 16:09:48,126 - INFO - Current Lock-in Sensitivity setting: 15
+
+2024-07-01 16:09:48,142 - INFO - Current Time Constant: 8
+
+2024-07-01 16:09:48,150 - INFO - Current Low Pass Filter: 0
+
+2024-07-01 16:09:48,160 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-01 16:09:48,181 - INFO - Waiting the 10 second warm-up time
+2024-07-01 16:09:58,213 - INFO - Sampling Rate (samples/second): 500
+2024-07-01 16:09:58,214 - INFO - Total Duration (seconds): 180
+2024-07-01 16:09:58,214 - INFO - Time Interval (seconds): 0.002
+2024-07-01 16:09:58,215 - INFO - BEGINNING DATA ACQUISITION
+2024-07-01 16:12:58,226 - INFO - DATA ACQUISITION COMPLETE
+2024-07-01 16:12:58,312 - INFO - The data has been saved to ../Data/Add_Mirrors/Tables/time_vs_vlockin_Mirrors2_180GHz.csv, previous file may have been overwritten.
+2024-07-01 16:12:58,648 - INFO - The data has been saved to ../Data/Add_Mirrors/Plots/time_vs_vlockin_Mirrors2_180GHz.png, previous file may have been overwritten.
+2024-07-01 16:12:59,868 - INFO - PROWLS did NOT power down
+2024-07-01 16:12:59,877 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-01 16:12:59,890 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-01 16:12:59,906 - INFO - Lasers on: True

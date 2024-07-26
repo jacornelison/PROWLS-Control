@@ -1,0 +1,50 @@
+2024-06-25 10:26:16,916 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-25 10:26:17,973 - INFO - Connected to: DLCsmartTHz
+2024-06-25 10:26:17,974 - INFO - Current User Level: 3
+2024-06-25 10:26:19,052 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-25 10:26:19,060 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-25 10:26:25,149 - INFO - Lasers on: True
+2024-06-25 10:26:31,249 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-25 10:26:31,258 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-25 10:26:31,267 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-06-25 10:26:47,347 - INFO - Current DLC Smart Frequency (GHz): 180.00409640170983
+2024-06-25 10:26:47,767 - INFO - Current Lock-in Sensitivity setting: 15
+
+2024-06-25 10:26:48,232 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-06-25 10:26:48,269 - INFO - Sampling Rate (samples/second): 500
+2024-06-25 10:26:48,270 - INFO - Total Duration (seconds): 60
+2024-06-25 10:26:48,271 - INFO - Time Interval (seconds): 0.002
+2024-06-25 10:26:48,271 - INFO - BEGINNING DATA ACQUISITION
+2024-06-25 10:27:48,283 - INFO - DATA ACQUISITION COMPLETE
+2024-06-25 10:27:48,318 - INFO - The data has been saved to time_vs_vlockin_heat_photomixer.csv, previous file may have been overwritten.
+2024-06-25 10:27:48,538 - INFO - The data has been saved to time_vs_vlockin_heat_photomixer.png, previous file may have been overwritten.
+2024-06-25 10:27:49,722 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-25 10:27:49,729 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-25 10:27:55,824 - INFO - Lasers on: False
+2024-06-25 10:28:15,378 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-25 10:28:16,423 - INFO - Connected to: DLCsmartTHz
+2024-06-25 10:28:16,423 - INFO - Current User Level: 3
+2024-06-25 10:28:17,533 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-25 10:28:17,545 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-25 10:28:23,613 - INFO - Lasers on: True
+2024-06-25 10:28:29,699 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-25 10:28:29,711 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-25 10:28:29,719 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-06-25 10:28:45,797 - INFO - Current DLC Smart Frequency (GHz): 180.00141088388045
+2024-06-25 10:28:46,212 - INFO - Current Lock-in Sensitivity setting: 15
+
+2024-06-25 10:28:46,674 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-06-25 10:28:46,715 - INFO - Sampling Rate (samples/second): 500
+2024-06-25 10:28:46,716 - INFO - Total Duration (seconds): 60
+2024-06-25 10:28:46,716 - INFO - Time Interval (seconds): 0.002
+2024-06-25 10:28:46,717 - INFO - BEGINNING DATA ACQUISITION
+2024-06-25 10:29:46,736 - INFO - DATA ACQUISITION COMPLETE
+2024-06-25 10:29:46,776 - INFO - The data has been saved to time_vs_vlockin_heat_photomixer.csv, previous file may have been overwritten.
+2024-06-25 10:29:46,976 - INFO - The data has been saved to time_vs_vlockin_heat_photomixer.png, previous file may have been overwritten.
+2024-06-25 10:29:48,167 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-25 10:29:48,176 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-25 10:29:54,250 - INFO - Lasers on: False

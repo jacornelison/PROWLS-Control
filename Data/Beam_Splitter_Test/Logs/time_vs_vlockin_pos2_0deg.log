@@ -1,0 +1,29 @@
+2024-07-15 16:04:42,501 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-15 16:04:43,560 - INFO - Connected to: DLCsmartTHz
+2024-07-15 16:04:43,560 - INFO - Current User Level: 3
+2024-07-15 16:04:44,639 - INFO - Lasers on: True
+2024-07-15 16:04:50,739 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-15 16:04:50,751 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-15 16:04:50,761 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-15 16:04:56,830 - INFO - Current Laser Frequency (GHz): 180.001959776273
+2024-07-15 16:04:57,572 - INFO - Current Lock-in Sensitivity setting: 16
+
+2024-07-15 16:04:57,579 - INFO - Current Time Constant: 8
+
+2024-07-15 16:04:57,594 - INFO - Current Low Pass Filter: 0
+
+2024-07-15 16:04:57,603 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-15 16:04:57,635 - INFO - Waiting the 0 second warm-up time
+2024-07-15 16:04:57,664 - INFO - Sampling Rate (samples/second): 50
+2024-07-15 16:04:57,664 - INFO - Total Duration (seconds): 120
+2024-07-15 16:04:57,664 - INFO - Time Interval (seconds): 0.02
+2024-07-15 16:04:57,665 - INFO - BEGINNING DATA ACQUISITION
+2024-07-15 16:06:57,666 - INFO - DATA ACQUISITION COMPLETE
+2024-07-15 16:06:57,711 - INFO - The data has been saved to ../Data/Beam_Splitter_Test/Tables/time_vs_vlockin_pos2_0deg.csv, previous file may have been overwritten.
+2024-07-15 16:06:57,960 - INFO - The data has been saved to ../Data/Beam_Splitter_Test/Plots/time_vs_vlockin_pos2_0deg.png, previous file may have been overwritten.
+2024-07-15 16:06:59,118 - INFO - PROWLS did NOT power down
+2024-07-15 16:06:59,127 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-15 16:06:59,135 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-15 16:06:59,143 - INFO - Lasers on: True

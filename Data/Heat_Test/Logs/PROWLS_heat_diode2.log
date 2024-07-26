@@ -1,0 +1,29 @@
+2024-06-26 15:42:32,733 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-26 15:42:33,812 - INFO - Connected to: DLCsmartTHz
+2024-06-26 15:42:33,812 - INFO - Current User Level: 3
+2024-06-26 15:42:34,896 - INFO - Lasers on: True
+2024-06-26 15:42:40,982 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-26 15:42:40,993 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-26 15:42:41,011 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-06-26 15:42:47,093 - INFO - Current Laser Frequency (GHz): 179.99633791387896
+2024-06-26 15:42:47,835 - INFO - Current Lock-in Sensitivity setting: 15
+
+2024-06-26 15:42:47,851 - INFO - Current Time Constant: 8
+
+2024-06-26 15:42:47,856 - INFO - Current Low Pass Filter: 0
+
+2024-06-26 15:42:47,868 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-06-26 15:42:47,898 - INFO - Waiting the 0 second warm-up time
+2024-06-26 15:42:47,935 - INFO - Sampling Rate (samples/second): 500
+2024-06-26 15:42:47,936 - INFO - Total Duration (seconds): 180
+2024-06-26 15:42:47,936 - INFO - Time Interval (seconds): 0.002
+2024-06-26 15:42:47,937 - INFO - BEGINNING DATA ACQUISITION
+2024-06-26 15:45:47,957 - INFO - DATA ACQUISITION COMPLETE
+2024-06-26 15:45:48,074 - INFO - The data has been saved to time_vs_vlockin_heat_diode2.csv, previous file may have been overwritten.
+2024-06-26 15:45:48,565 - INFO - The data has been saved to time_vs_vlockin_heat_diode2.png, previous file may have been overwritten.
+2024-06-26 15:45:49,902 - INFO - PROWLS did NOT power down
+2024-06-26 15:45:49,911 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-26 15:45:49,918 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-26 15:45:49,926 - INFO - Lasers on: True

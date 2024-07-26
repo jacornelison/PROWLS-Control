@@ -1,0 +1,31 @@
+2024-07-03 16:08:55,658 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-03 16:08:56,720 - INFO - Connected to: DLCsmartTHz
+2024-07-03 16:08:56,722 - INFO - Current User Level: 2
+2024-07-03 16:08:57,810 - INFO - Lasers on: True
+2024-07-03 16:09:03,901 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-03 16:09:03,911 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-03 16:09:03,920 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-03 16:09:09,999 - INFO - Current Laser Frequency (GHz): 179.9991258526279
+2024-07-03 16:09:10,742 - INFO - Current Lock-in Sensitivity setting: 16
+
+2024-07-03 16:09:10,760 - INFO - Current Time Constant: 8
+
+2024-07-03 16:09:10,770 - INFO - Current Low Pass Filter: 0
+
+2024-07-03 16:09:10,782 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-03 16:09:10,810 - INFO - Waiting the 0 second warm-up time
+2024-07-03 16:09:10,842 - INFO - Sampling Rate (samples/second): 500
+2024-07-03 16:09:10,843 - INFO - Total Duration (seconds): 180
+2024-07-03 16:09:10,843 - INFO - Time Interval (seconds): 0.002
+2024-07-03 16:09:10,844 - INFO - BEGINNING DATA ACQUISITION
+2024-07-03 16:12:10,859 - INFO - DATA ACQUISITION COMPLETE
+2024-07-03 16:12:10,978 - INFO - The data has been saved to ../Data/Heat_Test/Tables/time_vs_vlockin_heat3_baseline.csv, previous file may have been overwritten.
+2024-07-03 16:12:12,009 - INFO - The data has been saved to ../Data/Heat_Test/Plots/time_vs_vlockin_heat3_baseline.png, previous file may have been overwritten.
+2024-07-03 16:12:13,512 - INFO - PROWLS did NOT power down
+2024-07-03 16:12:13,523 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-03 16:12:13,533 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-03 16:12:13,541 - INFO - Lasers on: True
+2024-07-03 16:12:13,563 - ERROR - No such comm target registered: jupyter.widget.control
+2024-07-03 16:12:13,575 - WARNING - No such comm: b64f754d-07bf-42e5-8edf-d8635cd30781

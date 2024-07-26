@@ -1,0 +1,51 @@
+2024-07-09 15:10:34,435 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-09 15:10:35,497 - INFO - Connected to: DLCsmartTHz
+2024-07-09 15:10:35,498 - INFO - Current User Level: 3
+2024-07-09 15:10:36,579 - INFO - Lasers on: True
+2024-07-09 15:10:42,707 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-09 15:10:42,722 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-09 15:10:42,729 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-09 15:10:48,806 - INFO - Current Laser Frequency (GHz): 600.0007300313737
+2024-07-09 15:10:49,537 - INFO - Current Lock-in Sensitivity setting: 17
+
+2024-07-09 15:10:49,550 - INFO - Current Time Constant: 8
+
+2024-07-09 15:10:49,560 - INFO - Current Low Pass Filter: 0
+
+2024-07-09 15:10:49,569 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-09 15:10:49,595 - INFO - Waiting the 0 second warm-up time
+2024-07-09 15:10:49,630 - INFO - Sampling Rate (samples/second): 5
+2024-07-09 15:10:49,631 - INFO - Total Duration (seconds): 3600
+2024-07-09 15:10:49,631 - INFO - Time Interval (seconds): 0.2
+2024-07-09 15:10:49,632 - INFO - BEGINNING DATA ACQUISITION
+2024-07-09 15:11:50,565 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-09 15:11:51,642 - INFO - Connected to: DLCsmartTHz
+2024-07-09 15:11:51,642 - INFO - Current User Level: 3
+2024-07-09 15:11:52,740 - INFO - Lasers on: True
+2024-07-09 15:11:58,868 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-09 15:11:58,878 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-09 15:11:58,888 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-09 15:12:04,962 - INFO - Current Laser Frequency (GHz): 180.0029693537508
+2024-07-09 15:12:05,681 - INFO - Current Lock-in Sensitivity setting: 17
+
+2024-07-09 15:12:05,687 - INFO - Current Time Constant: 8
+
+2024-07-09 15:12:05,693 - INFO - Current Low Pass Filter: 0
+
+2024-07-09 15:12:05,711 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-09 15:12:05,720 - INFO - Waiting the 0 second warm-up time
+2024-07-09 15:12:05,745 - INFO - Sampling Rate (samples/second): 5
+2024-07-09 15:12:05,745 - INFO - Total Duration (seconds): 3600
+2024-07-09 15:12:05,745 - INFO - Time Interval (seconds): 0.2
+2024-07-09 15:12:05,746 - INFO - BEGINNING DATA ACQUISITION
+2024-07-09 16:12:05,771 - INFO - DATA ACQUISITION COMPLETE
+2024-07-09 16:12:05,921 - INFO - The data has been saved to ../Data//Baseline_Daily/Tables/time_vs_vlockin_baseline3_7-9-24.csv, previous file may have been overwritten.
+2024-07-09 16:12:06,431 - INFO - The data has been saved to ../Data//Baseline_Daily/Plots/time_vs_vlockin_baseline3_7-9-24.png, previous file may have been overwritten.
+2024-07-09 16:12:07,737 - INFO - PROWLS did NOT power down
+2024-07-09 16:12:07,747 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-09 16:12:07,757 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-09 16:12:07,767 - INFO - Lasers on: True

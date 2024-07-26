@@ -1,0 +1,39 @@
+2024-06-27 13:33:48,512 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-27 13:34:15,685 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-27 13:34:16,737 - INFO - Connected to: DLCsmartTHz
+2024-06-27 13:34:16,737 - INFO - Current User Level: 3
+2024-06-27 13:34:17,819 - INFO - Lasers on: True
+2024-06-27 13:34:23,921 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-27 13:34:23,930 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-27 13:34:23,940 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-06-27 13:34:30,039 - INFO - Current Laser Frequency (GHz): 599.9978978474392
+2024-06-27 13:34:30,781 - INFO - Current Lock-in Sensitivity setting: 15
+
+2024-06-27 13:34:30,799 - INFO - Current Time Constant: 8
+
+2024-06-27 13:34:30,807 - INFO - Current Low Pass Filter: 0
+
+2024-06-27 13:34:30,819 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-06-27 13:34:30,845 - INFO - Waiting the 60 second warm-up time
+2024-06-27 13:35:30,888 - INFO - Sampling Rate (samples/second): 500
+2024-06-27 13:35:30,888 - INFO - Total Duration (seconds): 120
+2024-06-27 13:35:30,889 - INFO - Time Interval (seconds): 0.002
+2024-06-27 13:35:30,890 - INFO - BEGINNING DATA ACQUISITION
+2024-06-27 13:37:30,900 - INFO - DATA ACQUISITION COMPLETE
+2024-06-27 13:37:30,966 - INFO - The data has been saved to time_vs_vlockin_computerplug.csv, previous file may have been overwritten.
+2024-06-27 13:37:31,246 - INFO - The data has been saved to time_vs_vlockin_computerplug.png, previous file may have been overwritten.
+2024-06-27 13:37:32,447 - INFO - PROWLS did NOT power down
+2024-06-27 13:37:32,456 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-27 13:37:32,462 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-27 13:37:32,470 - INFO - Lasers on: True
+2024-06-27 13:40:22,065 - INFO - PROWLS did NOT power down
+2024-06-27 13:40:22,082 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-27 13:40:22,093 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-27 13:40:22,102 - INFO - Lasers on: True
+2024-06-27 13:40:37,095 - INFO - PROWLS powered down
+2024-06-27 13:40:37,106 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-27 13:40:37,121 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-27 13:40:37,130 - INFO - Lasers on: False

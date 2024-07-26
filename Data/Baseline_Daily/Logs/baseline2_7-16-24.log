@@ -1,0 +1,32 @@
+2024-07-16 11:10:03,226 - INFO - Connected to: 0.000114352
+
+2024-07-16 11:10:04,284 - INFO - Connected to: DLCsmartTHz
+2024-07-16 11:10:04,285 - INFO - Current User Level: 3
+2024-07-16 11:10:05,362 - INFO - Lasers on: True
+2024-07-16 11:10:11,487 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-16 11:10:11,498 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-16 11:10:11,507 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-16 11:10:17,585 - INFO - Current Laser Frequency (GHz): 179.99884283650317
+2024-07-16 11:10:17,637 - INFO - Current Lock-in Sensitivity setting: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-16 11:10:18,325 - INFO - Current Time Constant: 16
+
+2024-07-16 11:10:18,326 - INFO - Current Low Pass Filter: 8
+
+2024-07-16 11:10:18,337 - INFO - Current Lock-in Bias Frequency (Hz): 0
+
+2024-07-16 11:10:18,374 - INFO - Waiting the 0 second warm-up time
+2024-07-16 11:10:18,401 - INFO - Sampling Rate (samples/second): 50
+2024-07-16 11:10:18,403 - INFO - Total Duration (seconds): 1800
+2024-07-16 11:10:18,403 - INFO - Time Interval (seconds): 0.02
+2024-07-16 11:10:18,404 - INFO - BEGINNING DATA ACQUISITION
+2024-07-16 11:40:18,405 - INFO - DATA ACQUISITION COMPLETE
+2024-07-16 11:40:19,267 - INFO - The data has been saved to ../Data/Baseline_Daily/Tables/baseline2_7-16-24.csv, previous file may have been overwritten.
+2024-07-16 11:40:19,913 - INFO - The data has been saved to ../Data/Baseline_Daily/Plots/baseline2_7-16-24.png, previous file may have been overwritten.
+2024-07-16 11:40:21,272 - INFO - PROWLS did NOT power down
+2024-07-16 11:40:21,283 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-16 11:40:21,285 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-16 11:40:21,295 - INFO - Lasers on: True
+2024-07-16 11:42:15,890 - INFO - The data has been saved to ../Data/Baseline_Daily/Tables/baseline2_7-16-24.csv, previous file may have been overwritten.
+2024-07-16 11:42:37,299 - INFO - The data has been saved to ../Data/Baseline_Daily/Tables/baseline2_7-16-24.csv, previous file may have been overwritten.
+2024-07-16 11:42:49,313 - INFO - The data has been saved to ../Data/Baseline_Daily/Plots/baseline2_7-16-24.png, previous file may have been overwritten.

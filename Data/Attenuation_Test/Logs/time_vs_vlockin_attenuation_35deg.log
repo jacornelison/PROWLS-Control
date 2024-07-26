@@ -1,0 +1,29 @@
+2024-07-08 16:07:06,028 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-08 16:07:07,086 - INFO - Connected to: DLCsmartTHz
+2024-07-08 16:07:07,087 - INFO - Current User Level: 3
+2024-07-08 16:07:08,152 - INFO - Lasers on: True
+2024-07-08 16:07:14,227 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-08 16:07:14,235 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-08 16:07:14,243 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-08 16:07:20,314 - INFO - Current Laser Frequency (GHz): 180.00181053439155
+2024-07-08 16:07:21,039 - INFO - Current Lock-in Sensitivity setting: 16
+
+2024-07-08 16:07:21,055 - INFO - Current Time Constant: 8
+
+2024-07-08 16:07:21,062 - INFO - Current Low Pass Filter: 0
+
+2024-07-08 16:07:21,071 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-08 16:07:21,079 - INFO - Waiting the 0 second warm-up time
+2024-07-08 16:07:21,095 - INFO - Sampling Rate (samples/second): 500
+2024-07-08 16:07:21,095 - INFO - Total Duration (seconds): 60
+2024-07-08 16:07:21,096 - INFO - Time Interval (seconds): 0.002
+2024-07-08 16:07:21,096 - INFO - BEGINNING DATA ACQUISITION
+2024-07-08 16:08:21,109 - INFO - DATA ACQUISITION COMPLETE
+2024-07-08 16:08:21,137 - INFO - The data has been saved to ../Data/Attenuation_Test/Tables/time_vs_vlockin_attenuation_35deg.csv, previous file may have been overwritten.
+2024-07-08 16:08:21,483 - INFO - The data has been saved to ../Data/Attenuation_Test/Plots/time_vs_vlockin_attenuation_35deg.png, previous file may have been overwritten.
+2024-07-08 16:08:22,702 - INFO - PROWLS did NOT power down
+2024-07-08 16:08:22,710 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-08 16:08:22,718 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-08 16:08:22,724 - INFO - Lasers on: True

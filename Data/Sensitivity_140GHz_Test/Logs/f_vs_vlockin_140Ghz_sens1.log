@@ -1,0 +1,88 @@
+2024-07-16 12:08:58,514 - INFO - Connected to: DLCsmartTHz
+2024-07-16 12:08:58,515 - INFO - Current User Level: 3
+2024-07-16 12:08:59,595 - INFO - Lasers on: True
+2024-07-16 12:09:05,716 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-16 12:09:05,727 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-16 12:09:05,736 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-16 12:09:11,813 - INFO - Current DLC Smart Frequency (GHz): 123.00156586361118
+2024-07-16 12:09:11,865 - INFO - Current Lock-in Sensitivity setting: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-16 12:09:12,466 - INFO - Current Time Constant: 19
+
+2024-07-16 12:09:12,472 - INFO - Current Low Pass Filter: 8
+
+2024-07-16 12:09:12,477 - INFO - Current Lock-in Bias Frequency (Hz): 0
+
+2024-07-16 12:09:12,506 - INFO - Waiting the 30 second warm-up time
+2024-07-16 12:09:42,562 - INFO - Frequency Scan Range (GHz):117-123
+2024-07-16 12:09:42,563 - INFO - Frequency Increment (GHz): 0.1
+2024-07-16 12:09:42,563 - INFO - Frequency Tolerance (GHz): 0.01
+2024-07-16 12:09:42,563 - INFO - BEGINNING DATA ACQUISITION
+2024-07-16 12:09:43,623 - INFO - Appended data for frequency 117.0 GHz
+2024-07-16 12:09:44,885 - INFO - Appended data for frequency 117.1 GHz
+2024-07-16 12:09:46,037 - INFO - Appended data for frequency 117.19999999999999 GHz
+2024-07-16 12:09:47,101 - INFO - Appended data for frequency 117.29999999999998 GHz
+2024-07-16 12:09:48,300 - INFO - Appended data for frequency 117.39999999999998 GHz
+2024-07-16 12:09:49,500 - INFO - Appended data for frequency 117.49999999999997 GHz
+2024-07-16 12:09:50,786 - INFO - Appended data for frequency 117.59999999999997 GHz
+2024-07-16 12:09:51,970 - INFO - Appended data for frequency 117.69999999999996 GHz
+2024-07-16 12:09:53,243 - INFO - Appended data for frequency 117.79999999999995 GHz
+2024-07-16 12:09:54,507 - INFO - Appended data for frequency 117.89999999999995 GHz
+2024-07-16 12:09:55,655 - INFO - Appended data for frequency 117.99999999999994 GHz
+2024-07-16 12:09:56,845 - INFO - Appended data for frequency 118.09999999999994 GHz
+2024-07-16 12:09:58,024 - INFO - Appended data for frequency 118.19999999999993 GHz
+2024-07-16 12:09:59,256 - INFO - Appended data for frequency 118.29999999999993 GHz
+2024-07-16 12:10:00,581 - INFO - Appended data for frequency 118.39999999999992 GHz
+2024-07-16 12:10:01,786 - INFO - Appended data for frequency 118.49999999999991 GHz
+2024-07-16 12:10:02,985 - INFO - Appended data for frequency 118.59999999999991 GHz
+2024-07-16 12:10:04,137 - INFO - Appended data for frequency 118.6999999999999 GHz
+2024-07-16 12:10:05,364 - INFO - Appended data for frequency 118.7999999999999 GHz
+2024-07-16 12:10:06,569 - INFO - Appended data for frequency 118.89999999999989 GHz
+2024-07-16 12:10:07,765 - INFO - Appended data for frequency 118.99999999999989 GHz
+2024-07-16 12:10:08,916 - INFO - Appended data for frequency 119.09999999999988 GHz
+2024-07-16 12:10:10,083 - INFO - Appended data for frequency 119.19999999999987 GHz
+2024-07-16 12:10:11,278 - INFO - Appended data for frequency 119.29999999999987 GHz
+2024-07-16 12:10:12,498 - INFO - Appended data for frequency 119.39999999999986 GHz
+2024-07-16 12:10:13,654 - INFO - Appended data for frequency 119.49999999999986 GHz
+2024-07-16 12:10:14,816 - INFO - Appended data for frequency 119.59999999999985 GHz
+2024-07-16 12:10:15,967 - INFO - Appended data for frequency 119.69999999999985 GHz
+2024-07-16 12:10:17,186 - INFO - Appended data for frequency 119.79999999999984 GHz
+2024-07-16 12:10:18,443 - INFO - Appended data for frequency 119.89999999999984 GHz
+2024-07-16 12:10:19,713 - INFO - Appended data for frequency 119.99999999999983 GHz
+2024-07-16 12:10:20,942 - INFO - Appended data for frequency 120.09999999999982 GHz
+2024-07-16 12:10:22,094 - INFO - Appended data for frequency 120.19999999999982 GHz
+2024-07-16 12:10:23,246 - INFO - Appended data for frequency 120.29999999999981 GHz
+2024-07-16 12:10:24,464 - INFO - Appended data for frequency 120.3999999999998 GHz
+2024-07-16 12:10:25,663 - INFO - Appended data for frequency 120.4999999999998 GHz
+2024-07-16 12:10:26,903 - INFO - Appended data for frequency 120.5999999999998 GHz
+2024-07-16 12:10:28,163 - INFO - Appended data for frequency 120.69999999999979 GHz
+2024-07-16 12:10:29,293 - INFO - Appended data for frequency 120.79999999999978 GHz
+2024-07-16 12:10:30,557 - INFO - Appended data for frequency 120.89999999999978 GHz
+2024-07-16 12:10:31,794 - INFO - Appended data for frequency 120.99999999999977 GHz
+2024-07-16 12:10:33,055 - INFO - Appended data for frequency 121.09999999999977 GHz
+2024-07-16 12:10:34,302 - INFO - Appended data for frequency 121.19999999999976 GHz
+2024-07-16 12:10:35,451 - INFO - Appended data for frequency 121.29999999999976 GHz
+2024-07-16 12:10:36,656 - INFO - Appended data for frequency 121.39999999999975 GHz
+2024-07-16 12:10:37,775 - INFO - Appended data for frequency 121.49999999999974 GHz
+2024-07-16 12:10:38,927 - INFO - Appended data for frequency 121.59999999999974 GHz
+2024-07-16 12:10:40,107 - INFO - Appended data for frequency 121.69999999999973 GHz
+2024-07-16 12:10:41,295 - INFO - Appended data for frequency 121.79999999999973 GHz
+2024-07-16 12:10:42,564 - INFO - Appended data for frequency 121.89999999999972 GHz
+2024-07-16 12:10:43,737 - INFO - Appended data for frequency 121.99999999999972 GHz
+2024-07-16 12:10:45,010 - INFO - Appended data for frequency 122.09999999999971 GHz
+2024-07-16 12:10:46,167 - INFO - Appended data for frequency 122.1999999999997 GHz
+2024-07-16 12:10:47,298 - INFO - Appended data for frequency 122.2999999999997 GHz
+2024-07-16 12:10:48,495 - INFO - Appended data for frequency 122.3999999999997 GHz
+2024-07-16 12:10:49,706 - INFO - Appended data for frequency 122.49999999999969 GHz
+2024-07-16 12:10:50,889 - INFO - Appended data for frequency 122.59999999999968 GHz
+2024-07-16 12:10:52,094 - INFO - Appended data for frequency 122.69999999999968 GHz
+2024-07-16 12:10:53,347 - INFO - Appended data for frequency 122.79999999999967 GHz
+2024-07-16 12:10:54,536 - INFO - Appended data for frequency 122.89999999999966 GHz
+2024-07-16 12:10:55,756 - INFO - Appended data for frequency 122.99999999999966 GHz
+2024-07-16 12:10:55,765 - INFO - DATA ACQUISITION COMPLETE
+2024-07-16 12:10:55,813 - INFO - The data has been saved to ../Data/Sensitivity_140GHz_Test/Tables/f_vs_vlockin_140Ghz_sens1.csv, previous file may have been overwritten.
+2024-07-16 12:10:57,108 - INFO - The data has been saved to ../Data/Sensitivity_140GHz_Test/Plots/f_vs_vlockin_140Ghz_sens1.png, previous file may have been overwritten.
+2024-07-16 12:10:58,813 - INFO - PROWLS did NOT power down
+2024-07-16 12:10:58,824 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-16 12:10:58,828 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-16 12:10:58,840 - INFO - Lasers on: True

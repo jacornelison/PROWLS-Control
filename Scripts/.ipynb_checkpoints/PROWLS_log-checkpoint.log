@@ -1,0 +1,44 @@
+2024-06-20 10:50:36,594 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-20 10:50:40,759 - INFO - Connected to: DLCsmartTHz
+2024-06-20 10:50:40,759 - INFO - Current User Level: 3
+2024-06-20 10:50:48,804 - INFO - Current DLC Smart Bias Amplitude (V): 0
+2024-06-20 10:50:48,812 - INFO - Current DLC Smart Bias Offset (V): 0
+2024-06-20 10:50:54,903 - INFO - Lasers on: True
+2024-06-20 10:51:04,691 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-20 10:51:04,700 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-20 10:51:04,708 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-06-20 10:51:17,752 - INFO - Current DLC Smart Frequency (GHz): 69.99558311552391
+2024-06-20 10:51:22,306 - INFO - Current Lock-in Sensitivity setting: 14
+
+2024-06-20 10:51:27,601 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-06-20 10:52:12,776 - INFO - BEGINNING DATA ACQUISITION
+2024-06-20 10:52:13,843 - INFO - Appended data for frequency 70 GHz - Measured Frequency: 70.00140293376171 GHz, Vlockin: 0.5886 microvolts
+2024-06-20 10:52:15,402 - INFO - Appended data for frequency 71 GHz - Measured Frequency: 70.50230362583534 GHz, Vlockin: 0.7562380000000001 microvolts
+2024-06-20 10:52:16,965 - INFO - Appended data for frequency 72 GHz - Measured Frequency: 71.50060398224741 GHz, Vlockin: 1.24798 microvolts
+2024-06-20 10:52:18,535 - INFO - Appended data for frequency 73 GHz - Measured Frequency: 72.50588527831133 GHz, Vlockin: 1.4715 microvolts
+2024-06-20 10:52:20,097 - INFO - Appended data for frequency 74 GHz - Measured Frequency: 73.50120672979392 GHz, Vlockin: 1.31131 microvolts
+2024-06-20 10:52:21,662 - INFO - Appended data for frequency 75 GHz - Measured Frequency: 74.5123922219791 GHz, Vlockin: 1.19583 microvolts
+2024-06-20 10:52:23,225 - INFO - Appended data for frequency 76 GHz - Measured Frequency: 75.50825421480113 GHz, Vlockin: 1.55718 microvolts
+2024-06-20 10:52:24,787 - INFO - Appended data for frequency 77 GHz - Measured Frequency: 76.50015365774743 GHz, Vlockin: 1.17347 microvolts
+2024-06-20 10:52:26,344 - INFO - Appended data for frequency 78 GHz - Measured Frequency: 77.50214667970431 GHz, Vlockin: 1.00584 microvolts
+2024-06-20 10:52:27,906 - INFO - Appended data for frequency 79 GHz - Measured Frequency: 78.5085845492722 GHz, Vlockin: 0.838194 microvolts
+2024-06-20 10:52:29,474 - INFO - Appended data for frequency 80 GHz - Measured Frequency: 79.50254235006287 GHz, Vlockin: 0.834469 microvolts
+2024-06-20 10:52:31,035 - INFO - Appended data for frequency 81 GHz - Measured Frequency: 80.50698674094747 GHz, Vlockin: 0.6035010000000001 microvolts
+2024-06-20 10:52:32,596 - INFO - Appended data for frequency 82 GHz - Measured Frequency: 81.50498498039087 GHz, Vlockin: 0.506643 microvolts
+2024-06-20 10:52:34,143 - INFO - Appended data for frequency 83 GHz - Measured Frequency: 82.50153170630801 GHz, Vlockin: 0.506643 microvolts
+2024-06-20 10:52:35,702 - INFO - Appended data for frequency 84 GHz - Measured Frequency: 83.5020599111449 GHz, Vlockin: 0.685457 microvolts
+2024-06-20 10:52:37,289 - INFO - Appended data for frequency 85 GHz - Measured Frequency: 84.50532839301741 GHz, Vlockin: 0.748787 microvolts
+2024-06-20 10:52:38,856 - INFO - Appended data for frequency 86 GHz - Measured Frequency: 85.50940594723215 GHz, Vlockin: 0.644479 microvolts
+2024-06-20 10:52:40,413 - INFO - Appended data for frequency 87 GHz - Measured Frequency: 86.5029034834879 GHz, Vlockin: 0.9164249999999999 microvolts
+2024-06-20 10:52:41,973 - INFO - Appended data for frequency 88 GHz - Measured Frequency: 87.50027334821061 GHz, Vlockin: 1.59443 microvolts
+2024-06-20 10:52:43,536 - INFO - Appended data for frequency 89 GHz - Measured Frequency: 88.5021138896409 GHz, Vlockin: 0.7264349999999999 microvolts
+2024-06-20 10:52:45,097 - INFO - Appended data for frequency 90 GHz - Measured Frequency: 89.5047154011263 GHz, Vlockin: 0.718985 microvolts
+2024-06-20 10:52:46,665 - INFO - Appended data for frequency 91 GHz - Measured Frequency: 90.50756513196393 GHz, Vlockin: 0.488017 microvolts
+2024-06-20 10:52:48,225 - INFO - Appended data for frequency 92 GHz - Measured Frequency: 91.50143613276305 GHz, Vlockin: 0.353904 microvolts
+2024-06-20 10:52:49,793 - INFO - Appended data for frequency 93 GHz - Measured Frequency: 92.50075490985182 GHz, Vlockin: 0.346454 microvolts
+2024-06-20 10:52:51,356 - INFO - Appended data for frequency 94 GHz - Measured Frequency: 93.50413209301769 GHz, Vlockin: 0.257047 microvolts
+2024-06-20 10:52:52,910 - INFO - Appended data for frequency 95 GHz - Measured Frequency: 94.50011152619845 GHz, Vlockin: 0.417234 microvolts
+2024-06-20 10:52:54,466 - INFO - Appended data for frequency 96 GHz - Measured Frequency: 95.50016516528558 GHz, Vlockin: 0.581149 microvolts
+2024-06-20 10:52:56,024 - INFO - Appended data for frequency 97 GHz - Measured Frequency: 96.50498824144597 GHz, Vlockin: 0.815842 microvolts

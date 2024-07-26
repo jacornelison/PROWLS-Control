@@ -1,0 +1,29 @@
+2024-06-26 16:36:26,886 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-06-26 16:36:27,964 - INFO - Connected to: DLCsmartTHz
+2024-06-26 16:36:27,965 - INFO - Current User Level: 3
+2024-06-26 16:36:29,044 - INFO - Lasers on: True
+2024-06-26 16:36:35,159 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-26 16:36:35,169 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-26 16:36:35,180 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-06-26 16:36:41,252 - INFO - Current Laser Frequency (GHz): 179.99903346478823
+2024-06-26 16:36:41,977 - INFO - Current Lock-in Sensitivity setting: 15
+
+2024-06-26 16:36:41,993 - INFO - Current Time Constant: 8
+
+2024-06-26 16:36:41,998 - INFO - Current Low Pass Filter: 0
+
+2024-06-26 16:36:42,008 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-06-26 16:36:42,024 - INFO - Waiting the 10 second warm-up time
+2024-06-26 16:36:52,076 - INFO - Sampling Rate (samples/second): 500
+2024-06-26 16:36:52,076 - INFO - Total Duration (seconds): 180
+2024-06-26 16:36:52,077 - INFO - Time Interval (seconds): 0.002
+2024-06-26 16:36:52,077 - INFO - BEGINNING DATA ACQUISITION
+2024-06-26 16:39:52,094 - INFO - DATA ACQUISITION COMPLETE
+2024-06-26 16:39:52,213 - INFO - The data has been saved to time_vs_vlockin_photomixer_200.csv, previous file may have been overwritten.
+2024-06-26 16:39:53,596 - INFO - The data has been saved to time_vs_vlockin_photomixer_200.png, previous file may have been overwritten.
+2024-06-26 16:39:55,554 - INFO - PROWLS did NOT power down
+2024-06-26 16:39:55,565 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-06-26 16:39:55,576 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-06-26 16:39:55,585 - INFO - Lasers on: True

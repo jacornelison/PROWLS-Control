@@ -1,0 +1,31 @@
+2024-07-01 16:02:25,329 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-07-01 16:02:26,386 - INFO - Connected to: DLCsmartTHz
+2024-07-01 16:02:26,386 - INFO - Current User Level: 2
+2024-07-01 16:02:27,464 - INFO - Lasers on: True
+2024-07-01 16:02:33,590 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-01 16:02:33,598 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-01 16:02:33,606 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2024-07-01 16:02:39,697 - INFO - Current Laser Frequency (GHz): 139.99692516186042
+2024-07-01 16:02:40,409 - INFO - Current Lock-in Sensitivity setting: 17
+
+2024-07-01 16:02:40,425 - INFO - Current Time Constant: 8
+
+2024-07-01 16:02:40,433 - INFO - Current Low Pass Filter: 0
+
+2024-07-01 16:02:40,444 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-07-01 16:02:40,465 - INFO - Waiting the 10 second warm-up time
+2024-07-01 16:02:50,510 - INFO - Sampling Rate (samples/second): 500
+2024-07-01 16:02:50,510 - INFO - Total Duration (seconds): 180
+2024-07-01 16:02:50,511 - INFO - Time Interval (seconds): 0.002
+2024-07-01 16:02:50,511 - INFO - BEGINNING DATA ACQUISITION
+2024-07-01 16:05:50,533 - INFO - DATA ACQUISITION COMPLETE
+2024-07-01 16:05:50,596 - INFO - The data has been saved to ../Data/Add_Mirrors/Tables/time_vs_vlockin_Mirrors2_140GHz.csv, previous file may have been overwritten.
+2024-07-01 16:05:51,088 - INFO - The data has been saved to ../Data/Add_Mirrors/Plots/time_vs_vlockin_Mirrors2_140GHz.png, previous file may have been overwritten.
+2024-07-01 16:05:52,405 - INFO - PROWLS did NOT power down
+2024-07-01 16:05:52,414 - INFO - Current DLC Smart Bias Amplitude (V): 0.800018310546875
+2024-07-01 16:05:52,421 - INFO - Current DLC Smart Bias Offset (V): -0.30002441704309607
+2024-07-01 16:05:52,429 - INFO - Lasers on: True
+2024-07-01 16:05:52,438 - ERROR - No such comm target registered: jupyter.widget.control
+2024-07-01 16:05:52,443 - WARNING - No such comm: a674fda6-437e-4c82-aac1-7ab2644939fb
