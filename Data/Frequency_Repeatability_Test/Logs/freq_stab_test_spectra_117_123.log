@@ -1,0 +1,80 @@
+2025-04-18 15:30:12,016 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2025-04-18 15:42:48,595 - INFO - Connected to: DLCsmartTHz
+2025-04-18 15:42:48,596 - INFO - Current User Level: 3
+2025-04-18 15:43:28,036 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2025-04-18 15:46:42,426 - INFO - Lasers on: True
+2025-04-18 15:46:48,500 - INFO - Current DLC Smart Bias Amplitude (V): 1.999969482421875
+2025-04-18 15:46:48,510 - INFO - Current DLC Smart Bias Offset (V): 0
+2025-04-18 15:46:48,520 - INFO - Current DLC Smart Bias Frequency (Hz): 1000
+2025-04-18 15:47:15,389 - INFO - Current DLC Smart Frequency (GHz): 600.0000067711808
+2025-04-18 15:47:34,872 - INFO - Current DLC Smart Frequency (GHz): 116.99676143194665
+2025-04-18 15:47:56,170 - INFO - Current Lock-in Sensitivity setting: 17
+
+2025-04-18 15:47:56,190 - INFO - Current Time Constant: 6
+
+2025-04-18 15:47:56,200 - INFO - Current Low Pass Filter: 1
+
+2025-04-18 15:47:56,222 - INFO - Current Lock-in Bias Frequency (Hz): 999.968
+
+2025-04-18 15:50:33,230 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 15:53:50,463 - INFO - Current DLC Smart Frequency (GHz): 120.99941240658518
+2025-04-18 15:54:08,174 - INFO - Current DLC Smart Frequency (GHz): 200.0008787654806
+2025-04-18 15:55:28,123 - INFO - Current DLC Smart Frequency (GHz): 200.00219226127956
+2025-04-18 15:55:49,343 - INFO - Current DLC Smart Frequency (GHz): 116.0011769636767
+2025-04-18 15:56:21,110 - INFO - Current Lock-in Sensitivity setting: 17
+
+2025-04-18 15:56:21,110 - INFO - Current Time Constant: 6
+
+2025-04-18 15:56:21,120 - INFO - Current Low Pass Filter: 1
+
+2025-04-18 15:56:21,143 - INFO - Current Lock-in Bias Frequency (Hz): 999.968
+
+2025-04-18 15:56:47,465 - INFO - Current DLC Smart Frequency (GHz): 127.00001829111716
+2025-04-18 15:57:00,320 - INFO - Current DLC Smart Frequency (GHz): 127.9988728298922
+2025-04-18 15:57:18,644 - INFO - Current DLC Smart Frequency (GHz): 127.50024744187249
+2025-04-18 15:57:32,732 - INFO - Current DLC Smart Frequency (GHz): 128.0008341363864
+2025-04-18 15:58:38,563 - INFO - Current DLC Smart Frequency (GHz): 127.50158396657207
+2025-04-18 16:00:27,751 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:12:55,026 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:13:10,612 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_1.csv, previous file may have been overwritten.
+2025-04-18 16:13:26,043 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_2.csv, previous file may have been overwritten.
+2025-04-18 16:18:28,589 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:19:17,286 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_1.csv, previous file may have been overwritten.
+2025-04-18 16:20:05,821 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_2.csv, previous file may have been overwritten.
+2025-04-18 16:22:37,783 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:24:13,405 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:26:49,438 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:28:17,369 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:31:00,016 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_1.csv, previous file may have been overwritten.
+2025-04-18 16:31:37,456 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_2.csv, previous file may have been overwritten.
+2025-04-18 16:32:14,994 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_3.csv, previous file may have been overwritten.
+2025-04-18 16:42:25,347 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_0.csv, previous file may have been overwritten.
+2025-04-18 16:42:40,948 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_0.csv, previous file may have been overwritten.
+2025-04-18 16:42:56,276 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_1.csv, previous file may have been overwritten.
+2025-04-18 16:43:11,540 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_1.csv, previous file may have been overwritten.
+2025-04-18 16:43:27,055 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_2.csv, previous file may have been overwritten.
+2025-04-18 16:43:42,564 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_2.csv, previous file may have been overwritten.
+2025-04-18 16:43:57,952 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_3.csv, previous file may have been overwritten.
+2025-04-18 16:44:13,538 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_3.csv, previous file may have been overwritten.
+2025-04-18 16:44:29,142 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_4.csv, previous file may have been overwritten.
+2025-04-18 16:44:44,868 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_4.csv, previous file may have been overwritten.
+2025-04-18 16:49:44,099 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_fwd_0.csv, previous file may have been overwritten.
+2025-04-18 16:49:59,750 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_0.csv, previous file may have been overwritten.
+2025-04-18 16:52:57,209 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_fwd_0.csv, previous file may have been overwritten.
+2025-04-18 16:53:15,028 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_0.csv, previous file may have been overwritten.
+2025-04-18 16:57:37,109 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_fwd_0.csv, previous file may have been overwritten.
+2025-04-18 16:58:02,522 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_0.csv, previous file may have been overwritten.
+2025-04-18 17:04:59,244 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_fwd_0.csv, previous file may have been overwritten.
+2025-04-18 17:05:46,018 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_0.csv, previous file may have been overwritten.
+2025-04-18 17:08:23,887 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_fwd_1.csv, previous file may have been overwritten.
+2025-04-18 17:09:27,272 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_1.csv, previous file may have been overwritten.
+2025-04-18 17:11:44,445 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_fwd_1.csv, previous file may have been overwritten.
+2025-04-18 17:12:47,472 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_117_123_rev_1.csv, previous file may have been overwritten.
+2025-04-18 17:20:23,860 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_18Apr2025_fwd_0.csv, previous file may have been overwritten.
+2025-04-18 17:21:26,669 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_18Apr2025_rev_0.csv, previous file may have been overwritten.
+2025-04-18 17:22:30,448 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_18Apr2025_fwd_1.csv, previous file may have been overwritten.
+2025-04-18 17:23:32,875 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_18Apr2025_rev_1.csv, previous file may have been overwritten.
+2025-04-18 17:24:35,724 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_18Apr2025_fwd_2.csv, previous file may have been overwritten.
+2025-04-18 17:25:40,029 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Frequency_Repeatability_Test//Tables/freq_stab_test_spectra_18Apr2025_rev_2.csv, previous file may have been overwritten.

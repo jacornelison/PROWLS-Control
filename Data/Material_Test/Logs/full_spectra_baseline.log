@@ -1,0 +1,568 @@
+2024-08-05 15:28:17,157 - INFO - Connected to: Stanford_Research_Systems,SR830,s/n46458,ver1.07 
+
+2024-08-05 15:28:25,752 - INFO - Connected to: DLCsmartTHz
+2024-08-05 15:28:25,753 - INFO - Current User Level: 3
+2024-08-05 15:28:53,455 - INFO - Current DLC Smart Frequency (GHz): 180.0035312055552
+2024-08-05 15:30:19,553 - INFO - Current Lock-in Sensitivity setting: 19
+
+2024-08-05 15:30:19,559 - INFO - Current Time Constant: 8
+
+2024-08-05 15:30:19,566 - INFO - Current Low Pass Filter: 0
+
+2024-08-05 15:30:19,584 - INFO - Current Lock-in Bias Frequency (Hz): 1000
+
+2024-08-05 15:30:42,569 - INFO - Frequency Scan Range (GHz):117-220
+2024-08-05 15:30:42,569 - INFO - Frequency Increment (GHz): 1
+2024-08-05 15:30:42,570 - INFO - Frequency Tolerance (GHz): 0.01
+2024-08-05 15:30:42,570 - INFO - BEGINNING DATA ACQUISITION
+2024-08-05 15:30:43,604 - INFO - Error at frequency 117 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,604 - INFO - Appended None for frequency 117 GHz due to error
+2024-08-05 15:30:43,604 - INFO - Error at frequency 118 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,604 - INFO - Appended None for frequency 118 GHz due to error
+2024-08-05 15:30:43,606 - INFO - Error at frequency 119 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,606 - INFO - Appended None for frequency 119 GHz due to error
+2024-08-05 15:30:43,606 - INFO - Error at frequency 120 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,606 - INFO - Appended None for frequency 120 GHz due to error
+2024-08-05 15:30:43,606 - INFO - Error at frequency 121 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,606 - INFO - Appended None for frequency 121 GHz due to error
+2024-08-05 15:30:43,607 - INFO - Error at frequency 122 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,607 - INFO - Appended None for frequency 122 GHz due to error
+2024-08-05 15:30:43,607 - INFO - Error at frequency 123 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,607 - INFO - Appended None for frequency 123 GHz due to error
+2024-08-05 15:30:43,608 - INFO - Error at frequency 124 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,608 - INFO - Appended None for frequency 124 GHz due to error
+2024-08-05 15:30:43,609 - INFO - Error at frequency 125 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,609 - INFO - Appended None for frequency 125 GHz due to error
+2024-08-05 15:30:43,609 - INFO - Error at frequency 126 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,609 - INFO - Appended None for frequency 126 GHz due to error
+2024-08-05 15:30:43,610 - INFO - Error at frequency 127 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,610 - INFO - Appended None for frequency 127 GHz due to error
+2024-08-05 15:30:43,610 - INFO - Error at frequency 128 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,610 - INFO - Appended None for frequency 128 GHz due to error
+2024-08-05 15:30:43,611 - INFO - Error at frequency 129 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,611 - INFO - Appended None for frequency 129 GHz due to error
+2024-08-05 15:30:43,612 - INFO - Error at frequency 130 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,612 - INFO - Appended None for frequency 130 GHz due to error
+2024-08-05 15:30:43,612 - INFO - Error at frequency 131 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,612 - INFO - Appended None for frequency 131 GHz due to error
+2024-08-05 15:30:43,613 - INFO - Error at frequency 132 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,613 - INFO - Appended None for frequency 132 GHz due to error
+2024-08-05 15:30:43,613 - INFO - Error at frequency 133 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,613 - INFO - Appended None for frequency 133 GHz due to error
+2024-08-05 15:30:43,614 - INFO - Error at frequency 134 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,614 - INFO - Appended None for frequency 134 GHz due to error
+2024-08-05 15:30:43,615 - INFO - Error at frequency 135 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,615 - INFO - Appended None for frequency 135 GHz due to error
+2024-08-05 15:30:43,615 - INFO - Error at frequency 136 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,615 - INFO - Appended None for frequency 136 GHz due to error
+2024-08-05 15:30:43,616 - INFO - Error at frequency 137 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,616 - INFO - Appended None for frequency 137 GHz due to error
+2024-08-05 15:30:43,616 - INFO - Error at frequency 138 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,616 - INFO - Appended None for frequency 138 GHz due to error
+2024-08-05 15:30:43,617 - INFO - Error at frequency 139 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,617 - INFO - Appended None for frequency 139 GHz due to error
+2024-08-05 15:30:43,617 - INFO - Error at frequency 140 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,618 - INFO - Appended None for frequency 140 GHz due to error
+2024-08-05 15:30:43,618 - INFO - Error at frequency 141 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,618 - INFO - Appended None for frequency 141 GHz due to error
+2024-08-05 15:30:43,619 - INFO - Error at frequency 142 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,619 - INFO - Appended None for frequency 142 GHz due to error
+2024-08-05 15:30:43,619 - INFO - Error at frequency 143 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,619 - INFO - Appended None for frequency 143 GHz due to error
+2024-08-05 15:30:43,620 - INFO - Error at frequency 144 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,620 - INFO - Appended None for frequency 144 GHz due to error
+2024-08-05 15:30:43,620 - INFO - Error at frequency 145 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,620 - INFO - Appended None for frequency 145 GHz due to error
+2024-08-05 15:30:43,621 - INFO - Error at frequency 146 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,621 - INFO - Appended None for frequency 146 GHz due to error
+2024-08-05 15:30:43,621 - INFO - Error at frequency 147 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,621 - INFO - Appended None for frequency 147 GHz due to error
+2024-08-05 15:30:43,621 - INFO - Error at frequency 148 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,621 - INFO - Appended None for frequency 148 GHz due to error
+2024-08-05 15:30:43,622 - INFO - Error at frequency 149 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,622 - INFO - Appended None for frequency 149 GHz due to error
+2024-08-05 15:30:43,622 - INFO - Error at frequency 150 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,622 - INFO - Appended None for frequency 150 GHz due to error
+2024-08-05 15:30:43,623 - INFO - Error at frequency 151 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,623 - INFO - Appended None for frequency 151 GHz due to error
+2024-08-05 15:30:43,623 - INFO - Error at frequency 152 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,623 - INFO - Appended None for frequency 152 GHz due to error
+2024-08-05 15:30:43,624 - INFO - Error at frequency 153 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,624 - INFO - Appended None for frequency 153 GHz due to error
+2024-08-05 15:30:43,624 - INFO - Error at frequency 154 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,625 - INFO - Appended None for frequency 154 GHz due to error
+2024-08-05 15:30:43,625 - INFO - Error at frequency 155 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,625 - INFO - Appended None for frequency 155 GHz due to error
+2024-08-05 15:30:43,626 - INFO - Error at frequency 156 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,626 - INFO - Appended None for frequency 156 GHz due to error
+2024-08-05 15:30:43,627 - INFO - Error at frequency 157 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,627 - INFO - Appended None for frequency 157 GHz due to error
+2024-08-05 15:30:43,627 - INFO - Error at frequency 158 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,627 - INFO - Appended None for frequency 158 GHz due to error
+2024-08-05 15:30:43,628 - INFO - Error at frequency 159 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,628 - INFO - Appended None for frequency 159 GHz due to error
+2024-08-05 15:30:43,628 - INFO - Error at frequency 160 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,629 - INFO - Appended None for frequency 160 GHz due to error
+2024-08-05 15:30:43,629 - INFO - Error at frequency 161 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,629 - INFO - Appended None for frequency 161 GHz due to error
+2024-08-05 15:30:43,630 - INFO - Error at frequency 162 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,630 - INFO - Appended None for frequency 162 GHz due to error
+2024-08-05 15:30:43,630 - INFO - Error at frequency 163 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,630 - INFO - Appended None for frequency 163 GHz due to error
+2024-08-05 15:30:43,631 - INFO - Error at frequency 164 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,631 - INFO - Appended None for frequency 164 GHz due to error
+2024-08-05 15:30:43,631 - INFO - Error at frequency 165 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,632 - INFO - Appended None for frequency 165 GHz due to error
+2024-08-05 15:30:43,632 - INFO - Error at frequency 166 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,632 - INFO - Appended None for frequency 166 GHz due to error
+2024-08-05 15:30:43,633 - INFO - Error at frequency 167 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,633 - INFO - Appended None for frequency 167 GHz due to error
+2024-08-05 15:30:43,633 - INFO - Error at frequency 168 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,634 - INFO - Appended None for frequency 168 GHz due to error
+2024-08-05 15:30:43,634 - INFO - Error at frequency 169 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,634 - INFO - Appended None for frequency 169 GHz due to error
+2024-08-05 15:30:43,635 - INFO - Error at frequency 170 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,635 - INFO - Appended None for frequency 170 GHz due to error
+2024-08-05 15:30:43,636 - INFO - Error at frequency 171 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,636 - INFO - Appended None for frequency 171 GHz due to error
+2024-08-05 15:30:43,636 - INFO - Error at frequency 172 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,636 - INFO - Appended None for frequency 172 GHz due to error
+2024-08-05 15:30:43,637 - INFO - Error at frequency 173 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,637 - INFO - Appended None for frequency 173 GHz due to error
+2024-08-05 15:30:43,637 - INFO - Error at frequency 174 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,638 - INFO - Appended None for frequency 174 GHz due to error
+2024-08-05 15:30:43,639 - INFO - Error at frequency 175 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,639 - INFO - Appended None for frequency 175 GHz due to error
+2024-08-05 15:30:43,639 - INFO - Error at frequency 176 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,639 - INFO - Appended None for frequency 176 GHz due to error
+2024-08-05 15:30:43,639 - INFO - Error at frequency 177 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,640 - INFO - Appended None for frequency 177 GHz due to error
+2024-08-05 15:30:43,640 - INFO - Error at frequency 178 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,640 - INFO - Appended None for frequency 178 GHz due to error
+2024-08-05 15:30:43,641 - INFO - Error at frequency 179 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,641 - INFO - Appended None for frequency 179 GHz due to error
+2024-08-05 15:30:43,642 - INFO - Error at frequency 180 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,642 - INFO - Appended None for frequency 180 GHz due to error
+2024-08-05 15:30:43,643 - INFO - Error at frequency 181 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,643 - INFO - Appended None for frequency 181 GHz due to error
+2024-08-05 15:30:43,644 - INFO - Error at frequency 182 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,644 - INFO - Appended None for frequency 182 GHz due to error
+2024-08-05 15:30:43,644 - INFO - Error at frequency 183 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,644 - INFO - Appended None for frequency 183 GHz due to error
+2024-08-05 15:30:43,645 - INFO - Error at frequency 184 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,645 - INFO - Appended None for frequency 184 GHz due to error
+2024-08-05 15:30:43,646 - INFO - Error at frequency 185 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,646 - INFO - Appended None for frequency 185 GHz due to error
+2024-08-05 15:30:43,647 - INFO - Error at frequency 186 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,647 - INFO - Appended None for frequency 186 GHz due to error
+2024-08-05 15:30:43,647 - INFO - Error at frequency 187 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,647 - INFO - Appended None for frequency 187 GHz due to error
+2024-08-05 15:30:43,648 - INFO - Error at frequency 188 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,648 - INFO - Appended None for frequency 188 GHz due to error
+2024-08-05 15:30:43,649 - INFO - Error at frequency 189 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,649 - INFO - Appended None for frequency 189 GHz due to error
+2024-08-05 15:30:43,649 - INFO - Error at frequency 190 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,649 - INFO - Appended None for frequency 190 GHz due to error
+2024-08-05 15:30:43,650 - INFO - Error at frequency 191 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,650 - INFO - Appended None for frequency 191 GHz due to error
+2024-08-05 15:30:43,650 - INFO - Error at frequency 192 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,651 - INFO - Appended None for frequency 192 GHz due to error
+2024-08-05 15:30:43,651 - INFO - Error at frequency 193 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,651 - INFO - Appended None for frequency 193 GHz due to error
+2024-08-05 15:30:43,652 - INFO - Error at frequency 194 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,652 - INFO - Appended None for frequency 194 GHz due to error
+2024-08-05 15:30:43,653 - INFO - Error at frequency 195 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,653 - INFO - Appended None for frequency 195 GHz due to error
+2024-08-05 15:30:43,654 - INFO - Error at frequency 196 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,654 - INFO - Appended None for frequency 196 GHz due to error
+2024-08-05 15:30:43,654 - INFO - Error at frequency 197 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,654 - INFO - Appended None for frequency 197 GHz due to error
+2024-08-05 15:30:43,655 - INFO - Error at frequency 198 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,655 - INFO - Appended None for frequency 198 GHz due to error
+2024-08-05 15:30:43,655 - INFO - Error at frequency 199 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,655 - INFO - Appended None for frequency 199 GHz due to error
+2024-08-05 15:30:43,656 - INFO - Error at frequency 200 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,656 - INFO - Appended None for frequency 200 GHz due to error
+2024-08-05 15:30:43,656 - INFO - Error at frequency 201 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,656 - INFO - Appended None for frequency 201 GHz due to error
+2024-08-05 15:30:43,657 - INFO - Error at frequency 202 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,657 - INFO - Appended None for frequency 202 GHz due to error
+2024-08-05 15:30:43,657 - INFO - Error at frequency 203 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,657 - INFO - Appended None for frequency 203 GHz due to error
+2024-08-05 15:30:43,657 - INFO - Error at frequency 204 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,659 - INFO - Appended None for frequency 204 GHz due to error
+2024-08-05 15:30:43,659 - INFO - Error at frequency 205 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,659 - INFO - Appended None for frequency 205 GHz due to error
+2024-08-05 15:30:43,659 - INFO - Error at frequency 206 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,659 - INFO - Appended None for frequency 206 GHz due to error
+2024-08-05 15:30:43,659 - INFO - Error at frequency 207 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,660 - INFO - Appended None for frequency 207 GHz due to error
+2024-08-05 15:30:43,660 - INFO - Error at frequency 208 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,660 - INFO - Appended None for frequency 208 GHz due to error
+2024-08-05 15:30:43,661 - INFO - Error at frequency 209 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,661 - INFO - Appended None for frequency 209 GHz due to error
+2024-08-05 15:30:43,662 - INFO - Error at frequency 210 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,662 - INFO - Appended None for frequency 210 GHz due to error
+2024-08-05 15:30:43,663 - INFO - Error at frequency 211 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,663 - INFO - Appended None for frequency 211 GHz due to error
+2024-08-05 15:30:43,663 - INFO - Error at frequency 212 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,664 - INFO - Appended None for frequency 212 GHz due to error
+2024-08-05 15:30:43,664 - INFO - Error at frequency 213 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,664 - INFO - Appended None for frequency 213 GHz due to error
+2024-08-05 15:30:43,665 - INFO - Error at frequency 214 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,665 - INFO - Appended None for frequency 214 GHz due to error
+2024-08-05 15:30:43,665 - INFO - Error at frequency 215 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,665 - INFO - Appended None for frequency 215 GHz due to error
+2024-08-05 15:30:43,666 - INFO - Error at frequency 216 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,666 - INFO - Appended None for frequency 216 GHz due to error
+2024-08-05 15:30:43,666 - INFO - Error at frequency 217 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,666 - INFO - Appended None for frequency 217 GHz due to error
+2024-08-05 15:30:43,667 - INFO - Error at frequency 218 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,667 - INFO - Appended None for frequency 218 GHz due to error
+2024-08-05 15:30:43,667 - INFO - Error at frequency 219 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,667 - INFO - Appended None for frequency 219 GHz due to error
+2024-08-05 15:30:43,668 - INFO - Error at frequency 220 GHz: Invalid type for value: <class 'numpy.int64'>
+2024-08-05 15:30:43,668 - INFO - Appended None for frequency 220 GHz due to error
+2024-08-05 15:30:43,671 - INFO - DATA ACQUISITION COMPLETE
+2024-08-05 15:32:09,504 - INFO - Frequency Scan Range (GHz):117-220
+2024-08-05 15:32:09,504 - INFO - Frequency Increment (GHz): 1
+2024-08-05 15:32:09,505 - INFO - Frequency Tolerance (GHz): 0.01
+2024-08-05 15:32:09,505 - INFO - BEGINNING DATA ACQUISITION
+2024-08-05 15:35:02,282 - INFO - Frequency Scan Range (GHz):117-220
+2024-08-05 15:35:02,283 - INFO - Frequency Increment (GHz): 1
+2024-08-05 15:35:02,283 - INFO - Frequency Tolerance (GHz): 0.01
+2024-08-05 15:35:02,284 - INFO - BEGINNING DATA ACQUISITION
+2024-08-05 15:35:03,351 - INFO - Appended data for frequency 117.0 GHz
+2024-08-05 15:35:05,352 - INFO - Appended data for frequency 118.0 GHz
+2024-08-05 15:35:07,310 - INFO - Appended data for frequency 119.0 GHz
+2024-08-05 15:35:09,222 - INFO - Appended data for frequency 120.0 GHz
+2024-08-05 15:35:11,154 - INFO - Appended data for frequency 121.0 GHz
+2024-08-05 15:35:13,080 - INFO - Appended data for frequency 122.0 GHz
+2024-08-05 15:35:15,009 - INFO - Appended data for frequency 123.0 GHz
+2024-08-05 15:35:16,948 - INFO - Appended data for frequency 124.0 GHz
+2024-08-05 15:35:18,934 - INFO - Appended data for frequency 125.0 GHz
+2024-08-05 15:35:20,860 - INFO - Appended data for frequency 126.0 GHz
+2024-08-05 15:35:22,772 - INFO - Appended data for frequency 127.0 GHz
+2024-08-05 15:35:24,719 - INFO - Appended data for frequency 128.0 GHz
+2024-08-05 15:35:26,640 - INFO - Appended data for frequency 129.0 GHz
+2024-08-05 15:35:28,482 - INFO - Appended data for frequency 130.0 GHz
+2024-08-05 15:35:30,408 - INFO - Appended data for frequency 131.0 GHz
+2024-08-05 15:35:32,368 - INFO - Appended data for frequency 132.0 GHz
+2024-08-05 15:35:34,296 - INFO - Appended data for frequency 133.0 GHz
+2024-08-05 15:35:36,232 - INFO - Appended data for frequency 134.0 GHz
+2024-08-05 15:35:38,189 - INFO - Appended data for frequency 135.0 GHz
+2024-08-05 15:35:40,110 - INFO - Appended data for frequency 136.0 GHz
+2024-08-05 15:35:42,009 - INFO - Appended data for frequency 137.0 GHz
+2024-08-05 15:35:43,944 - INFO - Appended data for frequency 138.0 GHz
+2024-08-05 15:35:45,894 - INFO - Appended data for frequency 139.0 GHz
+2024-08-05 15:35:47,791 - INFO - Appended data for frequency 140.0 GHz
+2024-08-05 15:35:49,684 - INFO - Appended data for frequency 141.0 GHz
+2024-08-05 15:35:51,598 - INFO - Appended data for frequency 142.0 GHz
+2024-08-05 15:35:53,470 - INFO - Appended data for frequency 143.0 GHz
+2024-08-05 15:35:55,377 - INFO - Appended data for frequency 144.0 GHz
+2024-08-05 15:35:57,302 - INFO - Appended data for frequency 145.0 GHz
+2024-08-05 15:35:59,202 - INFO - Appended data for frequency 146.0 GHz
+2024-08-05 15:36:01,092 - INFO - Appended data for frequency 147.0 GHz
+2024-08-05 15:36:03,046 - INFO - Appended data for frequency 148.0 GHz
+2024-08-05 15:36:04,967 - INFO - Appended data for frequency 149.0 GHz
+2024-08-05 15:36:06,872 - INFO - Appended data for frequency 150.0 GHz
+2024-08-05 15:36:08,789 - INFO - Appended data for frequency 151.0 GHz
+2024-08-05 15:36:10,699 - INFO - Appended data for frequency 152.0 GHz
+2024-08-05 15:36:12,626 - INFO - Appended data for frequency 153.0 GHz
+2024-08-05 15:36:14,547 - INFO - Appended data for frequency 154.0 GHz
+2024-08-05 15:36:16,459 - INFO - Appended data for frequency 155.0 GHz
+2024-08-05 15:36:18,417 - INFO - Appended data for frequency 156.0 GHz
+2024-08-05 15:36:20,337 - INFO - Appended data for frequency 157.0 GHz
+2024-08-05 15:36:22,261 - INFO - Appended data for frequency 158.0 GHz
+2024-08-05 15:36:24,191 - INFO - Appended data for frequency 159.0 GHz
+2024-08-05 15:36:26,101 - INFO - Appended data for frequency 160.0 GHz
+2024-08-05 15:36:28,014 - INFO - Appended data for frequency 161.0 GHz
+2024-08-05 15:36:29,969 - INFO - Appended data for frequency 162.0 GHz
+2024-08-05 15:36:31,915 - INFO - Appended data for frequency 163.0 GHz
+2024-08-05 15:36:33,795 - INFO - Appended data for frequency 164.0 GHz
+2024-08-05 15:36:35,741 - INFO - Appended data for frequency 165.0 GHz
+2024-08-05 15:36:37,644 - INFO - Appended data for frequency 166.0 GHz
+2024-08-05 15:36:39,577 - INFO - Appended data for frequency 167.0 GHz
+2024-08-05 15:36:41,529 - INFO - Appended data for frequency 168.0 GHz
+2024-08-05 15:36:43,425 - INFO - Appended data for frequency 169.0 GHz
+2024-08-05 15:36:45,383 - INFO - Appended data for frequency 170.0 GHz
+2024-08-05 15:36:47,328 - INFO - Appended data for frequency 171.0 GHz
+2024-08-05 15:36:49,244 - INFO - Appended data for frequency 172.0 GHz
+2024-08-05 15:36:51,173 - INFO - Appended data for frequency 173.0 GHz
+2024-08-05 15:36:53,110 - INFO - Appended data for frequency 174.0 GHz
+2024-08-05 15:36:55,001 - INFO - Appended data for frequency 175.0 GHz
+2024-08-05 15:36:56,917 - INFO - Appended data for frequency 176.0 GHz
+2024-08-05 15:36:58,796 - INFO - Appended data for frequency 177.0 GHz
+2024-08-05 15:37:00,717 - INFO - Appended data for frequency 178.0 GHz
+2024-08-05 15:37:02,639 - INFO - Appended data for frequency 179.0 GHz
+2024-08-05 15:37:04,568 - INFO - Appended data for frequency 180.0 GHz
+2024-08-05 15:37:06,527 - INFO - Appended data for frequency 181.0 GHz
+2024-08-05 15:37:08,483 - INFO - Appended data for frequency 182.0 GHz
+2024-08-05 15:37:10,417 - INFO - Appended data for frequency 183.0 GHz
+2024-08-05 15:37:12,371 - INFO - Appended data for frequency 184.0 GHz
+2024-08-05 15:37:14,314 - INFO - Appended data for frequency 185.0 GHz
+2024-08-05 15:37:16,277 - INFO - Appended data for frequency 186.0 GHz
+2024-08-05 15:37:18,194 - INFO - Appended data for frequency 187.0 GHz
+2024-08-05 15:37:20,108 - INFO - Appended data for frequency 188.0 GHz
+2024-08-05 15:37:22,072 - INFO - Appended data for frequency 189.0 GHz
+2024-08-05 15:37:24,000 - INFO - Appended data for frequency 190.0 GHz
+2024-08-05 15:37:25,945 - INFO - Appended data for frequency 191.0 GHz
+2024-08-05 15:37:27,879 - INFO - Appended data for frequency 192.0 GHz
+2024-08-05 15:37:29,791 - INFO - Appended data for frequency 193.0 GHz
+2024-08-05 15:37:31,684 - INFO - Appended data for frequency 194.0 GHz
+2024-08-05 15:37:33,560 - INFO - Appended data for frequency 195.0 GHz
+2024-08-05 15:37:35,491 - INFO - Appended data for frequency 196.0 GHz
+2024-08-05 15:37:37,394 - INFO - Appended data for frequency 197.0 GHz
+2024-08-05 15:37:39,327 - INFO - Appended data for frequency 198.0 GHz
+2024-08-05 15:37:41,248 - INFO - Appended data for frequency 199.0 GHz
+2024-08-05 15:37:43,173 - INFO - Appended data for frequency 200.0 GHz
+2024-08-05 15:37:45,077 - INFO - Appended data for frequency 201.0 GHz
+2024-08-05 15:37:46,970 - INFO - Appended data for frequency 202.0 GHz
+2024-08-05 15:37:48,889 - INFO - Appended data for frequency 203.0 GHz
+2024-08-05 15:37:50,848 - INFO - Appended data for frequency 204.0 GHz
+2024-08-05 15:37:52,811 - INFO - Appended data for frequency 205.0 GHz
+2024-08-05 15:37:54,745 - INFO - Appended data for frequency 206.0 GHz
+2024-08-05 15:37:56,697 - INFO - Appended data for frequency 207.0 GHz
+2024-08-05 15:37:58,641 - INFO - Appended data for frequency 208.0 GHz
+2024-08-05 15:38:00,583 - INFO - Appended data for frequency 209.0 GHz
+2024-08-05 15:38:02,492 - INFO - Appended data for frequency 210.0 GHz
+2024-08-05 15:38:04,415 - INFO - Appended data for frequency 211.0 GHz
+2024-08-05 15:38:06,367 - INFO - Appended data for frequency 212.0 GHz
+2024-08-05 15:38:08,313 - INFO - Appended data for frequency 213.0 GHz
+2024-08-05 15:38:10,250 - INFO - Appended data for frequency 214.0 GHz
+2024-08-05 15:38:12,164 - INFO - Appended data for frequency 215.0 GHz
+2024-08-05 15:38:14,042 - INFO - Appended data for frequency 216.0 GHz
+2024-08-05 15:38:15,973 - INFO - Appended data for frequency 217.0 GHz
+2024-08-05 15:38:17,876 - INFO - Appended data for frequency 218.0 GHz
+2024-08-05 15:38:19,786 - INFO - Appended data for frequency 219.0 GHz
+2024-08-05 15:38:21,732 - INFO - Appended data for frequency 220.0 GHz
+2024-08-05 15:38:21,737 - INFO - DATA ACQUISITION COMPLETE
+2024-08-05 15:38:42,400 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Material_Test/Tables/full_spectra_baseline.csv, previous file may have been overwritten.
+2024-08-05 15:41:02,561 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Material_Test/Plots/full_spectra_baseline.png, previous file may have been overwritten.
+2024-08-05 15:42:52,323 - INFO - Current DLC Smart Frequency (GHz): 219.99836093571503
+2024-08-05 15:43:04,521 - INFO - Current DLC Smart Frequency (GHz): 116.99744340739562
+2024-08-05 15:43:20,869 - INFO - Current DLC Smart Frequency (GHz): 116.99835783644812
+2024-08-05 15:43:50,986 - INFO - Frequency Scan Range (GHz):117-220
+2024-08-05 15:43:50,987 - INFO - Frequency Increment (GHz): 1
+2024-08-05 15:43:50,987 - INFO - Frequency Tolerance (GHz): 0.01
+2024-08-05 15:43:50,987 - INFO - BEGINNING DATA ACQUISITION
+2024-08-05 15:43:52,046 - INFO - Appended data for frequency 117.0 GHz
+2024-08-05 15:43:54,067 - INFO - Appended data for frequency 118.0 GHz
+2024-08-05 15:43:56,018 - INFO - Appended data for frequency 119.0 GHz
+2024-08-05 15:43:57,944 - INFO - Appended data for frequency 120.0 GHz
+2024-08-05 15:43:59,896 - INFO - Appended data for frequency 121.0 GHz
+2024-08-05 15:44:01,848 - INFO - Appended data for frequency 122.0 GHz
+2024-08-05 15:44:03,787 - INFO - Appended data for frequency 123.0 GHz
+2024-08-05 15:44:05,734 - INFO - Appended data for frequency 124.0 GHz
+2024-08-05 15:44:07,631 - INFO - Appended data for frequency 125.0 GHz
+2024-08-05 15:44:09,554 - INFO - Appended data for frequency 126.0 GHz
+2024-08-05 15:44:11,444 - INFO - Appended data for frequency 127.0 GHz
+2024-08-05 15:44:13,366 - INFO - Appended data for frequency 128.0 GHz
+2024-08-05 15:44:15,291 - INFO - Appended data for frequency 129.0 GHz
+2024-08-05 15:44:17,239 - INFO - Appended data for frequency 130.0 GHz
+2024-08-05 15:44:19,132 - INFO - Appended data for frequency 131.0 GHz
+2024-08-05 15:44:21,080 - INFO - Appended data for frequency 132.0 GHz
+2024-08-05 15:44:23,028 - INFO - Appended data for frequency 133.0 GHz
+2024-08-05 15:44:24,942 - INFO - Appended data for frequency 134.0 GHz
+2024-08-05 15:44:26,820 - INFO - Appended data for frequency 135.0 GHz
+2024-08-05 15:44:28,735 - INFO - Appended data for frequency 136.0 GHz
+2024-08-05 15:44:30,647 - INFO - Appended data for frequency 137.0 GHz
+2024-08-05 15:44:32,568 - INFO - Appended data for frequency 138.0 GHz
+2024-08-05 15:44:34,506 - INFO - Appended data for frequency 139.0 GHz
+2024-08-05 15:44:36,460 - INFO - Appended data for frequency 140.0 GHz
+2024-08-05 15:44:38,398 - INFO - Appended data for frequency 141.0 GHz
+2024-08-05 15:44:40,308 - INFO - Appended data for frequency 142.0 GHz
+2024-08-05 15:44:42,235 - INFO - Appended data for frequency 143.0 GHz
+2024-08-05 15:44:44,150 - INFO - Appended data for frequency 144.0 GHz
+2024-08-05 15:44:46,088 - INFO - Appended data for frequency 145.0 GHz
+2024-08-05 15:44:48,018 - INFO - Appended data for frequency 146.0 GHz
+2024-08-05 15:44:49,957 - INFO - Appended data for frequency 147.0 GHz
+2024-08-05 15:44:51,901 - INFO - Appended data for frequency 148.0 GHz
+2024-08-05 15:44:53,829 - INFO - Appended data for frequency 149.0 GHz
+2024-08-05 15:44:55,790 - INFO - Appended data for frequency 150.0 GHz
+2024-08-05 15:44:57,761 - INFO - Appended data for frequency 151.0 GHz
+2024-08-05 15:44:59,690 - INFO - Appended data for frequency 152.0 GHz
+2024-08-05 15:45:01,616 - INFO - Appended data for frequency 153.0 GHz
+2024-08-05 15:45:03,522 - INFO - Appended data for frequency 154.0 GHz
+2024-08-05 15:45:05,465 - INFO - Appended data for frequency 155.0 GHz
+2024-08-05 15:45:07,378 - INFO - Appended data for frequency 156.0 GHz
+2024-08-05 15:45:09,318 - INFO - Appended data for frequency 157.0 GHz
+2024-08-05 15:45:11,225 - INFO - Appended data for frequency 158.0 GHz
+2024-08-05 15:45:13,156 - INFO - Appended data for frequency 159.0 GHz
+2024-08-05 15:45:15,043 - INFO - Appended data for frequency 160.0 GHz
+2024-08-05 15:45:16,973 - INFO - Appended data for frequency 161.0 GHz
+2024-08-05 15:45:18,916 - INFO - Appended data for frequency 162.0 GHz
+2024-08-05 15:45:20,858 - INFO - Appended data for frequency 163.0 GHz
+2024-08-05 15:45:22,791 - INFO - Appended data for frequency 164.0 GHz
+2024-08-05 15:45:24,678 - INFO - Appended data for frequency 165.0 GHz
+2024-08-05 15:45:26,605 - INFO - Appended data for frequency 166.0 GHz
+2024-08-05 15:45:28,589 - INFO - Appended data for frequency 167.0 GHz
+2024-08-05 15:45:30,532 - INFO - Appended data for frequency 168.0 GHz
+2024-08-05 15:45:32,451 - INFO - Appended data for frequency 169.0 GHz
+2024-08-05 15:45:34,369 - INFO - Appended data for frequency 170.0 GHz
+2024-08-05 15:45:36,274 - INFO - Appended data for frequency 171.0 GHz
+2024-08-05 15:45:38,226 - INFO - Appended data for frequency 172.0 GHz
+2024-08-05 15:45:40,134 - INFO - Appended data for frequency 173.0 GHz
+2024-08-05 15:45:42,078 - INFO - Appended data for frequency 174.0 GHz
+2024-08-05 15:45:43,996 - INFO - Appended data for frequency 175.0 GHz
+2024-08-05 15:45:45,911 - INFO - Appended data for frequency 176.0 GHz
+2024-08-05 15:45:47,863 - INFO - Appended data for frequency 177.0 GHz
+2024-08-05 15:45:49,767 - INFO - Appended data for frequency 178.0 GHz
+2024-08-05 15:45:51,666 - INFO - Appended data for frequency 179.0 GHz
+2024-08-05 15:45:53,626 - INFO - Appended data for frequency 180.0 GHz
+2024-08-05 15:45:55,568 - INFO - Appended data for frequency 181.0 GHz
+2024-08-05 15:45:57,499 - INFO - Appended data for frequency 182.0 GHz
+2024-08-05 15:45:59,414 - INFO - Appended data for frequency 183.0 GHz
+2024-08-05 15:46:01,378 - INFO - Appended data for frequency 184.0 GHz
+2024-08-05 15:46:03,340 - INFO - Appended data for frequency 185.0 GHz
+2024-08-05 15:46:05,266 - INFO - Appended data for frequency 186.0 GHz
+2024-08-05 15:46:07,146 - INFO - Appended data for frequency 187.0 GHz
+2024-08-05 15:46:09,104 - INFO - Appended data for frequency 188.0 GHz
+2024-08-05 15:46:10,983 - INFO - Appended data for frequency 189.0 GHz
+2024-08-05 15:46:12,866 - INFO - Appended data for frequency 190.0 GHz
+2024-08-05 15:46:14,802 - INFO - Appended data for frequency 191.0 GHz
+2024-08-05 15:46:16,701 - INFO - Appended data for frequency 192.0 GHz
+2024-08-05 15:46:18,645 - INFO - Appended data for frequency 193.0 GHz
+2024-08-05 15:46:20,594 - INFO - Appended data for frequency 194.0 GHz
+2024-08-05 15:46:22,499 - INFO - Appended data for frequency 195.0 GHz
+2024-08-05 15:46:24,400 - INFO - Appended data for frequency 196.0 GHz
+2024-08-05 15:46:26,326 - INFO - Appended data for frequency 197.0 GHz
+2024-08-05 15:46:28,266 - INFO - Appended data for frequency 198.0 GHz
+2024-08-05 15:46:30,226 - INFO - Appended data for frequency 199.0 GHz
+2024-08-05 15:46:32,188 - INFO - Appended data for frequency 200.0 GHz
+2024-08-05 15:46:34,140 - INFO - Appended data for frequency 201.0 GHz
+2024-08-05 15:46:36,076 - INFO - Appended data for frequency 202.0 GHz
+2024-08-05 15:46:37,999 - INFO - Appended data for frequency 203.0 GHz
+2024-08-05 15:46:39,939 - INFO - Appended data for frequency 204.0 GHz
+2024-08-05 15:46:41,889 - INFO - Appended data for frequency 205.0 GHz
+2024-08-05 15:46:43,827 - INFO - Appended data for frequency 206.0 GHz
+2024-08-05 15:46:45,754 - INFO - Appended data for frequency 207.0 GHz
+2024-08-05 15:46:47,690 - INFO - Appended data for frequency 208.0 GHz
+2024-08-05 15:46:49,609 - INFO - Appended data for frequency 209.0 GHz
+2024-08-05 15:46:51,542 - INFO - Appended data for frequency 210.0 GHz
+2024-08-05 15:46:53,446 - INFO - Appended data for frequency 211.0 GHz
+2024-08-05 15:46:55,336 - INFO - Appended data for frequency 212.0 GHz
+2024-08-05 15:46:57,241 - INFO - Appended data for frequency 213.0 GHz
+2024-08-05 15:46:59,203 - INFO - Appended data for frequency 214.0 GHz
+2024-08-05 15:47:01,147 - INFO - Appended data for frequency 215.0 GHz
+2024-08-05 15:47:03,096 - INFO - Appended data for frequency 216.0 GHz
+2024-08-05 15:47:05,021 - INFO - Appended data for frequency 217.0 GHz
+2024-08-05 15:47:06,957 - INFO - Appended data for frequency 218.0 GHz
+2024-08-05 15:47:08,898 - INFO - Appended data for frequency 219.0 GHz
+2024-08-05 15:47:10,847 - INFO - Appended data for frequency 220.0 GHz
+2024-08-05 15:47:10,852 - INFO - DATA ACQUISITION COMPLETE
+2024-08-05 15:47:38,361 - INFO - Current DLC Smart Frequency (GHz): 219.9998086238047
+2024-08-05 15:47:48,881 - INFO - Current DLC Smart Frequency (GHz): 116.99204479751643
+2024-08-05 15:48:01,184 - INFO - Frequency Scan Range (GHz):117-220
+2024-08-05 15:48:01,185 - INFO - Frequency Increment (GHz): 1
+2024-08-05 15:48:01,186 - INFO - Frequency Tolerance (GHz): 0.01
+2024-08-05 15:48:01,186 - INFO - BEGINNING DATA ACQUISITION
+2024-08-05 15:48:02,271 - INFO - Appended data for frequency 117.0 GHz
+2024-08-05 15:48:04,248 - INFO - Appended data for frequency 118.0 GHz
+2024-08-05 15:48:06,203 - INFO - Appended data for frequency 119.0 GHz
+2024-08-05 15:48:08,166 - INFO - Appended data for frequency 120.0 GHz
+2024-08-05 15:48:10,062 - INFO - Appended data for frequency 121.0 GHz
+2024-08-05 15:48:11,999 - INFO - Appended data for frequency 122.0 GHz
+2024-08-05 15:48:13,953 - INFO - Appended data for frequency 123.0 GHz
+2024-08-05 15:48:15,841 - INFO - Appended data for frequency 124.0 GHz
+2024-08-05 15:48:17,750 - INFO - Appended data for frequency 125.0 GHz
+2024-08-05 15:48:19,710 - INFO - Appended data for frequency 126.0 GHz
+2024-08-05 15:48:21,657 - INFO - Appended data for frequency 127.0 GHz
+2024-08-05 15:48:23,574 - INFO - Appended data for frequency 128.0 GHz
+2024-08-05 15:48:25,484 - INFO - Appended data for frequency 129.0 GHz
+2024-08-05 15:48:27,436 - INFO - Appended data for frequency 130.0 GHz
+2024-08-05 15:48:29,357 - INFO - Appended data for frequency 131.0 GHz
+2024-08-05 15:48:31,290 - INFO - Appended data for frequency 132.0 GHz
+2024-08-05 15:48:33,195 - INFO - Appended data for frequency 133.0 GHz
+2024-08-05 15:48:35,054 - INFO - Appended data for frequency 134.0 GHz
+2024-08-05 15:48:36,983 - INFO - Appended data for frequency 135.0 GHz
+2024-08-05 15:48:38,905 - INFO - Appended data for frequency 136.0 GHz
+2024-08-05 15:48:40,833 - INFO - Appended data for frequency 137.0 GHz
+2024-08-05 15:48:42,789 - INFO - Appended data for frequency 138.0 GHz
+2024-08-05 15:48:44,720 - INFO - Appended data for frequency 139.0 GHz
+2024-08-05 15:48:46,641 - INFO - Appended data for frequency 140.0 GHz
+2024-08-05 15:48:48,578 - INFO - Appended data for frequency 141.0 GHz
+2024-08-05 15:48:50,487 - INFO - Appended data for frequency 142.0 GHz
+2024-08-05 15:48:52,440 - INFO - Appended data for frequency 143.0 GHz
+2024-08-05 15:48:54,381 - INFO - Appended data for frequency 144.0 GHz
+2024-08-05 15:48:56,283 - INFO - Appended data for frequency 145.0 GHz
+2024-08-05 15:48:58,217 - INFO - Appended data for frequency 146.0 GHz
+2024-08-05 15:49:00,138 - INFO - Appended data for frequency 147.0 GHz
+2024-08-05 15:49:02,084 - INFO - Appended data for frequency 148.0 GHz
+2024-08-05 15:49:04,025 - INFO - Appended data for frequency 149.0 GHz
+2024-08-05 15:49:05,890 - INFO - Appended data for frequency 150.0 GHz
+2024-08-05 15:49:07,819 - INFO - Appended data for frequency 151.0 GHz
+2024-08-05 15:49:09,748 - INFO - Appended data for frequency 152.0 GHz
+2024-08-05 15:49:11,637 - INFO - Appended data for frequency 153.0 GHz
+2024-08-05 15:49:13,571 - INFO - Appended data for frequency 154.0 GHz
+2024-08-05 15:49:15,520 - INFO - Appended data for frequency 155.0 GHz
+2024-08-05 15:49:17,477 - INFO - Appended data for frequency 156.0 GHz
+2024-08-05 15:49:19,441 - INFO - Appended data for frequency 157.0 GHz
+2024-08-05 15:49:21,367 - INFO - Appended data for frequency 158.0 GHz
+2024-08-05 15:49:23,285 - INFO - Appended data for frequency 159.0 GHz
+2024-08-05 15:49:25,212 - INFO - Appended data for frequency 160.0 GHz
+2024-08-05 15:49:27,124 - INFO - Appended data for frequency 161.0 GHz
+2024-08-05 15:49:29,037 - INFO - Appended data for frequency 162.0 GHz
+2024-08-05 15:49:30,985 - INFO - Appended data for frequency 163.0 GHz
+2024-08-05 15:49:32,899 - INFO - Appended data for frequency 164.0 GHz
+2024-08-05 15:49:34,781 - INFO - Appended data for frequency 165.0 GHz
+2024-08-05 15:49:36,706 - INFO - Appended data for frequency 166.0 GHz
+2024-08-05 15:49:38,636 - INFO - Appended data for frequency 167.0 GHz
+2024-08-05 15:49:40,566 - INFO - Appended data for frequency 168.0 GHz
+2024-08-05 15:49:42,481 - INFO - Appended data for frequency 169.0 GHz
+2024-08-05 15:49:44,414 - INFO - Appended data for frequency 170.0 GHz
+2024-08-05 15:49:46,331 - INFO - Appended data for frequency 171.0 GHz
+2024-08-05 15:49:48,273 - INFO - Appended data for frequency 172.0 GHz
+2024-08-05 15:49:50,214 - INFO - Appended data for frequency 173.0 GHz
+2024-08-05 15:49:52,139 - INFO - Appended data for frequency 174.0 GHz
+2024-08-05 15:49:54,118 - INFO - Appended data for frequency 175.0 GHz
+2024-08-05 15:49:56,066 - INFO - Appended data for frequency 176.0 GHz
+2024-08-05 15:49:57,963 - INFO - Appended data for frequency 177.0 GHz
+2024-08-05 15:49:59,854 - INFO - Appended data for frequency 178.0 GHz
+2024-08-05 15:50:01,806 - INFO - Appended data for frequency 179.0 GHz
+2024-08-05 15:50:03,720 - INFO - Appended data for frequency 180.0 GHz
+2024-08-05 15:50:05,637 - INFO - Appended data for frequency 181.0 GHz
+2024-08-05 15:50:07,525 - INFO - Appended data for frequency 182.0 GHz
+2024-08-05 15:50:09,430 - INFO - Appended data for frequency 183.0 GHz
+2024-08-05 15:50:11,389 - INFO - Appended data for frequency 184.0 GHz
+2024-08-05 15:50:13,324 - INFO - Appended data for frequency 185.0 GHz
+2024-08-05 15:50:15,234 - INFO - Appended data for frequency 186.0 GHz
+2024-08-05 15:50:17,177 - INFO - Appended data for frequency 187.0 GHz
+2024-08-05 15:50:19,154 - INFO - Appended data for frequency 188.0 GHz
+2024-08-05 15:50:21,115 - INFO - Appended data for frequency 189.0 GHz
+2024-08-05 15:50:23,030 - INFO - Appended data for frequency 190.0 GHz
+2024-08-05 15:50:24,952 - INFO - Appended data for frequency 191.0 GHz
+2024-08-05 15:50:26,827 - INFO - Appended data for frequency 192.0 GHz
+2024-08-05 15:50:28,768 - INFO - Appended data for frequency 193.0 GHz
+2024-08-05 15:50:30,685 - INFO - Appended data for frequency 194.0 GHz
+2024-08-05 15:50:32,622 - INFO - Appended data for frequency 195.0 GHz
+2024-08-05 15:50:34,551 - INFO - Appended data for frequency 196.0 GHz
+2024-08-05 15:50:36,455 - INFO - Appended data for frequency 197.0 GHz
+2024-08-05 15:50:38,401 - INFO - Appended data for frequency 198.0 GHz
+2024-08-05 15:50:40,345 - INFO - Appended data for frequency 199.0 GHz
+2024-08-05 15:50:42,269 - INFO - Appended data for frequency 200.0 GHz
+2024-08-05 15:50:44,240 - INFO - Appended data for frequency 201.0 GHz
+2024-08-05 15:50:46,199 - INFO - Appended data for frequency 202.0 GHz
+2024-08-05 15:50:48,173 - INFO - Appended data for frequency 203.0 GHz
+2024-08-05 15:50:50,118 - INFO - Appended data for frequency 204.0 GHz
+2024-08-05 15:50:52,040 - INFO - Appended data for frequency 205.0 GHz
+2024-08-05 15:50:53,944 - INFO - Appended data for frequency 206.0 GHz
+2024-08-05 15:50:55,909 - INFO - Appended data for frequency 207.0 GHz
+2024-08-05 15:50:57,830 - INFO - Appended data for frequency 208.0 GHz
+2024-08-05 15:50:59,761 - INFO - Appended data for frequency 209.0 GHz
+2024-08-05 15:51:01,697 - INFO - Appended data for frequency 210.0 GHz
+2024-08-05 15:51:03,599 - INFO - Appended data for frequency 211.0 GHz
+2024-08-05 15:51:05,552 - INFO - Appended data for frequency 212.0 GHz
+2024-08-05 15:51:07,480 - INFO - Appended data for frequency 213.0 GHz
+2024-08-05 15:51:09,377 - INFO - Appended data for frequency 214.0 GHz
+2024-08-05 15:51:11,307 - INFO - Appended data for frequency 215.0 GHz
+2024-08-05 15:51:13,252 - INFO - Appended data for frequency 216.0 GHz
+2024-08-05 15:51:15,196 - INFO - Appended data for frequency 217.0 GHz
+2024-08-05 15:51:17,168 - INFO - Appended data for frequency 218.0 GHz
+2024-08-05 15:51:19,144 - INFO - Appended data for frequency 219.0 GHz
+2024-08-05 15:51:21,092 - INFO - Appended data for frequency 220.0 GHz
+2024-08-05 15:51:21,096 - INFO - DATA ACQUISITION COMPLETE
+2024-08-05 15:53:01,226 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Material_Test/Tables/full_spectra_window_test.csv, previous file may have been overwritten.
+2024-08-05 15:57:25,338 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Material_Test/Plots/full_spectra_window_test.png, previous file may have been overwritten.
+2024-08-05 15:57:42,756 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Material_Test/Plots/full_spectra_window_test.png, previous file may have been overwritten.
+2024-08-05 16:00:43,740 - INFO - The data has been saved to C:/Users/jcornelison/Documents/GitHub/PROWLS-Control/Data/Material_Test/Plots/full_spectra_window_test.png, previous file may have been overwritten.
