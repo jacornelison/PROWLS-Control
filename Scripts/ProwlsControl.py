@@ -97,6 +97,21 @@ class ProwlsControl():
 
         return self.scan_data
 
+    def multiscan(self,fstart,fstop,finc,ftol=0.01,meas_time=1,nscans=None):
+        self.multiscan_data = []
+
+        try:
+            if nscans==None:
+                while True:
+                    self.multiscan_data.append(self.scan(fstart,fstop,finc,ftol=ftol,meas_time=meas_time))
+            else:
+                for scan in range(0,nscans):
+                    self.multiscan_data.append(self.scan(fstart,fstop,finc,ftol=ftol,meas_time=meas_time))
+        except KeyboardInterrupt:
+                print('Stopping Multiscan')
+
+        return self.multiscan_data
+
     def laser_toggle_on(self):
         assert self._client_get('laser-operation:frontkey-locked') == False
         self._client_set('laser-operation:emission-global-enable', True)
