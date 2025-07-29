@@ -9,39 +9,51 @@ import sys
 import os
 import glob
 import time
+
 import pandas as pd
 #import matplotlib.pyplot as plt
 import pyvisa
 import logging
 import numpy as np
-from time import sleep
+import pickle as pk
 from toptica.lasersdk.client import Client, SerialConnection, UserLevel, Subscription, Timestamp, SubscriptionValue
 from LockinControl import LockinControl
 from ProwlsConfig import ProwlsConfig
+from ProwlsPlotter import ProwlsPlotter
+from ProwlsIO import ProwlsIO
 cfg = ProwlsConfig()
 
 class ProwlsControl():
-    def __init__(self,port=None):
+    def __init__(self,port=None,connect=True):
         
         # Toptica Init
+        self.connect = connect
         self.port = port
-        if port==None:
+        if port==None and connect:
             self.port = self.find_toptica_port()
         self.client = None
         self.bias_amplitude = cfg.bias_amplitude
         self.bias_offset = cfg.bias_offset
         self.bias_frequency = cfg.bias_frequency
-        
+                
         rm = pyvisa.ResourceManager()
         
         # Lockin stuff
-        self.lockin = LockinControl(rm.open_resource(cfg.lockin_address))
-        
-        
+        if connect:
+            self.lockin = LockinControl(rm.open_resource(cfg.lockin_address))
+                
         # Data Stuff
         self.channel_list = self.init_channel_list()
         self.scan_data = None
         self.multiscan_data = None
+        self.timestream_data = None
+        
+        # Plotter stuff
+        self.plot = ProwlsPlotter(self)
+        
+        # I/O Stuff
+        self.io = ProwlsIO(self)
+        
         return
     
 
@@ -69,7 +81,9 @@ class ProwlsControl():
         data = data.mean(axis=0).to_frame().T
         return data
     
-    def scan(self,fstart,fstop,finc,ftol=0.01,meas_time=1,reverse=False):
+    def scan(self,fstart,fstop,finc,ftol=0.01,meas_time=1,reverse=False,check_laser_on=True):
+        if check_laser_on:
+            assert self.check_laser_status(), 'Laser is not on.'
         freq_list = np.arange(fstart, fstop + finc, finc)
         if reverse:
             freq_list = np.flip(freq_list)
@@ -97,7 +111,9 @@ class ProwlsControl():
 
         return self.scan_data
 
-    def multiscan(self,fstart,fstop,finc,ftol=0.01,meas_time=1,nscans=None):
+    def multiscan(self,fstart,fstop,finc,ftol=0.01,meas_time=1,nscans=None,check_laser_on=True):
+        if check_laser_on:
+            assert self.check_laser_status(), 'Laser is not on.'
         self.multiscan_data = []
 
         try:
@@ -110,7 +126,48 @@ class ProwlsControl():
         except KeyboardInterrupt:
                 print('Stopping Multiscan')
 
+
+        self.client = None
         return self.multiscan_data
+
+    def timestream(self,frequency,ftol=0.01,sample_rate = 0.01,meas_time=None,check_laser_on=True):
+        if check_laser_on:
+            assert self.check_laser_status(), 'Laser is not on.'
+        
+        self.timestream_data = pd.DataFrame(columns=self.channel_list)
+        with Client(SerialConnection(self.port)) as client:
+            self.client = client
+    
+            #set frequency
+            frequency = float(frequency)
+            self.set_frequency(frequency)
+            #get actual frequency from DLC Smart
+            measured_frequency = self.get_frequency()   
+            #loop until the measured frequency is close to the desired frequency
+            
+            while abs(measured_frequency - frequency) > ftol:
+                #get actual frequency from DLC Smart
+                measured_frequency = self.get_frequency()
+            
+            tstart = time.time()
+            
+            if meas_time==None:
+                tend = tstart+10#365*24*60*60 #Go for a year
+            else:
+                tend = tstart+meas_time
+            
+            try:
+                while time.time()<tend:
+                    self.timestream_data = pd.concat([self.timestream_data,self.avg_data(meas_time=sample_rate)],ignore_index=True)                                        
+            except KeyboardInterrupt:
+                print('Stopping timestream measurement')
+                
+
+        self.client = None
+        return self.timestream_data
+
+    def check_laser_status(self):
+        return self._client_get('laser-operation:emission-global-enable')
 
     def laser_toggle_on(self):
         assert self._client_get('laser-operation:frontkey-locked') == False
@@ -174,13 +231,8 @@ class ProwlsControl():
                 val = client.get(input_str)
         time.sleep(0.001)
         return val
-            
-    def save_data(self):
-        
-        
-        return
     
-        
+    
     def find_toptica_port(self):
         rm = pyvisa.ResourceManager("@py")
         dlc_connection_port = None

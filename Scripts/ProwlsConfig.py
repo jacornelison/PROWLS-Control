@@ -4,9 +4,13 @@ Created on Thu Jul 24 12:20:38 2025
 
 @author: jcornelison
 """
+import os
 
 class ProwlsConfig():
     def __init__(self):
+        # I/O stuff
+        self.datadir = os.path.join('..','Data')
+        
         # Toptica Stuff
         self.bias_amplitude = 2.0
         self.bias_offset = 0
