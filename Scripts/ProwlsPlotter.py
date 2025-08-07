@@ -13,6 +13,22 @@ class ProwlsPlotter():
         return
     
     
+    def plot_scan(self,fignum=1):
+        fig = plt.figure(fignum,figsize=(5,5))
+        
+        plt.plot(self.pc.scan_data['Frequency'],self.pc.scan_data['Lockin X'])       
+        
+        
+        plt.xlabel('Frequency [GHz]')
+        plt.ylabel('Lockin X [V]')
+        plt.tight_layout()
+        plt.grid(True)
+        plt.show()
+        
+        
+        return fig
+        
+    
     def plot_multiscan(self,fignum=1):
         
         fig = plt.figure(fignum,figsize=(5,5))

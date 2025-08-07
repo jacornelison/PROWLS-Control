@@ -18,6 +18,7 @@ import numpy as np
 import pickle as pk
 from toptica.lasersdk.client import Client, SerialConnection, UserLevel, Subscription, Timestamp, SubscriptionValue
 from LockinControl import LockinControl
+from TempControl import TempControl
 from ProwlsConfig import ProwlsConfig
 from ProwlsPlotter import ProwlsPlotter
 from ProwlsIO import ProwlsIO
@@ -42,6 +43,10 @@ class ProwlsControl():
         if connect:
             self.lockin = LockinControl(rm.open_resource(cfg.lockin_address))
                 
+
+        if connect:
+            self.temp = TempControl(rm.open_resource(cfg.keysight_address))
+
         # Data Stuff
         self.channel_list = self.init_channel_list()
         self.scan_data = None
@@ -56,6 +61,13 @@ class ProwlsControl():
         
         return
     
+    def __del__(self):
+        self.laser_toggle_off()
+        self.lockin.close()
+        self.temp.close()
+
+    def close(self):
+        self.__del__()
 
     def read_data(self):
         data = pd.DataFrame(columns=self.channel_list)
@@ -111,20 +123,25 @@ class ProwlsControl():
 
         return self.scan_data
 
-    def multiscan(self,fstart,fstop,finc,ftol=0.01,meas_time=1,nscans=None,check_laser_on=True):
+    def multiscan(self,fstart,fstop,finc,ftol=0.01,meas_time=1,nscans=None,check_laser_on=True,save_data=True,fname=None):
         if check_laser_on:
             assert self.check_laser_status(), 'Laser is not on.'
         self.multiscan_data = []
-
+        
         try:
             if nscans==None:
                 while True:
                     self.multiscan_data.append(self.scan(fstart,fstop,finc,ftol=ftol,meas_time=meas_time))
+                    if save_data:
+                        fname = self.io.save_multiscan(fname=fname,overwrite=True)
             else:
                 for scan in range(0,nscans):
                     self.multiscan_data.append(self.scan(fstart,fstop,finc,ftol=ftol,meas_time=meas_time))
+                    if save_data:
+                        fname = self.io.save_multiscan(fname=fname,overwrite=True)
         except KeyboardInterrupt:
                 print('Stopping Multiscan')
+
 
 
         self.client = None

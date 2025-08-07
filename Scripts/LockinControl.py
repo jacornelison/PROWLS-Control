@@ -15,8 +15,15 @@ class LockinControl():
         self.set_time_const(cfg.lockin_time_const)
         self.set_lp_filter(cfg.lockin_lpfilter)
         
+        self.get_lockin_info()
         
         return
+    
+    def __del__(self):
+        self.lockin.close()
+    
+    def close(self):
+        self.__del__()
     
     def get_output(self):
         # X,Y,R,theta
@@ -24,7 +31,6 @@ class LockinControl():
         data = self.lockin.query('SNAP?1,2,3,4').replace('\n','').split(',')
         return [float(d) for d in data]
         
-    
     
     def set_sensitivity(self,sens):
         self.lockin.write(f'SENS {sens}')
@@ -39,4 +45,9 @@ class LockinControl():
         self.lockin.write(f'FREQ {freq}')
     
     
+    def get_lockin_info(self):
+        #self.lockin.write('*IDN?')
+
+        print("\nLock-In Connection:")
+        print(self.lockin.query('*IDN?'))
     

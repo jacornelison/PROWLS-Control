@@ -25,7 +25,7 @@ class ProwlsIO:
         fname = os.path.join(datadir,'Scans',fname)
         self._save_file(self.pc.scan_data,fname,overwrite=overwrite)
         
-        return
+        return fname
     
     
     def save_multiscan(self,fname=None,datadir=cfg.datadir,overwrite=False):
@@ -33,9 +33,9 @@ class ProwlsIO:
             timestamp_str = datetime.now().strftime("%d%m%Y_%H%M%S")
             fname = f'multiscan_data_{timestamp_str}.pkl'
         
-        fname = os.path.join(datadir,'Multiscans',fname)        
-        self._save_file(self.pc.multiscan_data,fname,overwrite=overwrite)
-        return
+        fname_full = os.path.join(datadir,'Multiscans',fname)        
+        self._save_file(self.pc.multiscan_data,fname_full,overwrite=overwrite)
+        return fname
     
     def save_timestream(self,fname=None,datadir=cfg.datadir,overwrite=False):
         if fname==None:
@@ -44,7 +44,7 @@ class ProwlsIO:
         
         fname = os.path.join(datadir,'Timestreams',fname)
         self._save_file(self.pc.timestream_data,fname,overwrite=overwrite)
-        return
+        return fname
     
     def _save_file(self,data,fname,overwrite=False):
         if not overwrite:

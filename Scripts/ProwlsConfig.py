@@ -22,17 +22,24 @@ class ProwlsConfig():
         self.lockin_time_const = 7
         self.lockin_lpfilter = 1
         
-        # Labjack Stuff
+        # Temp Control
+        ## Labjack Stuff
+        self.temp_channels = ['AIN0']#,'AIN1']
+        self.temp_names = ['pmix']#,'aux']
+        self.temp_units = 'K' # K or C
         
-        # Power Supply Stuff
-        
-        
+        ## Power Supply Stuff
+        self.keysight_address = 'GPIB0::4::INSTR'
+        self.heater_names = ['pmix']
+                
         # Readout Stuff
         self.channel_wildcard = '#_'
         self.readout_channels = {
             "Time": ['time.time',None],
             "Frequency":['self.get_frequency',None],
             "Lockin #_": ['self.lockin.get_output',['X','Y','R','Theta']],
+            "Temp #_": ['self.temp.read_temps',self.temp_names],
+            "Heater Power #_": ['self.temp.read_heater_power',self.heater_names],
             }
         
         return
