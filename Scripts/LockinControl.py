@@ -5,8 +5,10 @@ Created on Thu Jul 24 12:15:07 2025
 @author: jcornelison
 """
 
+
 from ProwlsConfig import ProwlsConfig
 cfg = ProwlsConfig()
+import numpy as np
 
 class LockinControl():
     def __init__(self,sr830):
@@ -29,7 +31,7 @@ class LockinControl():
         # X,Y,R,theta
         # Volt,Volt,Volt,Degrees
         data = self.lockin.query('SNAP?1,2,3,4').replace('\n','').split(',')
-        return [float(d) for d in data]
+        return [np.float64(d) for d in data]
         
     
     def set_sensitivity(self,sens):

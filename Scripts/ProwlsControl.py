@@ -22,17 +22,22 @@ from TempControl import TempControl
 from ProwlsConfig import ProwlsConfig
 from ProwlsPlotter import ProwlsPlotter
 from ProwlsIO import ProwlsIO
+from ProwlsTools import ProwlsTools
 cfg = ProwlsConfig()
 
 class ProwlsControl():
-    def __init__(self,port=None,connect=True):
+    def __init__(self,connect=True):
         
         # Toptica Init
-        self.connect = connect
-        self.port = port
-        if port==None and connect:
-            self.port = self.find_toptica_port()
         self.client = None
+        self.connect = connect
+        self.port = cfg.toptica_address
+        if connect:
+            if self.port==None:
+                self.port = self.find_toptica_port()
+            else:
+                self.get_toptica_info()
+        
         self.bias_amplitude = cfg.bias_amplitude
         self.bias_offset = cfg.bias_offset
         self.bias_frequency = cfg.bias_frequency
@@ -58,6 +63,11 @@ class ProwlsControl():
         
         # I/O Stuff
         self.io = ProwlsIO(self)
+        
+        # Misc Tools
+        self.tools = ProwlsTools(self)
+        self.multiscan_fits = None
+        self.multiscan_avg_data = None
         
         return
     
@@ -106,7 +116,7 @@ class ProwlsControl():
             for frequency in freq_list:
                 if True:#try: 
                     #set frequency
-                    frequency = float(frequency)
+                    frequency = np.float64(frequency)
                     self.set_frequency(frequency)
                     #get actual frequency from DLC Smart
                     measured_frequency = self.get_frequency()   
@@ -156,7 +166,7 @@ class ProwlsControl():
             self.client = client
     
             #set frequency
-            frequency = float(frequency)
+            frequency = np.float64(frequency)
             self.set_frequency(frequency)
             #get actual frequency from DLC Smart
             measured_frequency = self.get_frequency()   
@@ -268,8 +278,20 @@ class ProwlsControl():
                         return dlc_connection_port
                 except:
                     continue
-        assert dlc_connection_port is not None
+        assert dlc_connection_port is not None, "Could not find Toptica on any connected ports."
         rm.close()
+
+    def get_toptica_info(self):
+        serno = self._client_get('general:serial-number')
+        systype = self._client_get('general:system-type')
+        user_level = self._client_get('ul')
+        print("Toptica Connection:\n"
+              f"Connected to: {systype}\n"
+              f"Serial Number: {serno}\n"
+              f"Current User Level: {user_level}"              
+              )
+        
+        return
 
     def init_channel_list(self):
         channel_list = []

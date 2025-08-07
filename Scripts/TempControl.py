@@ -5,6 +5,7 @@ Created on Tue Jul 29 13:54:44 2025
 @author: jcornelison
 """
 
+import numpy as np
 from time import sleep
 from labjack import ljm
 from ProwlsConfig import ProwlsConfig
@@ -55,7 +56,7 @@ class TempControl:
             self.ps.write(f'INST:SEL OUT{chan}')
             self.ps.write('MEAS:CURR?')
             sleep(0.0001)
-            curr.append(float(self.ps.read()))
+            curr.append(np.float64(self.ps.read()))
         
         return curr
 
@@ -67,7 +68,7 @@ class TempControl:
             self.ps.write(f'INST:SEL OUT{chan}')
             self.ps.write('MEAS:VOLT?')
             sleep(0.0001)
-            volts.append(float(self.ps.read()))
+            volts.append(np.float64(self.ps.read()))
         
         return volts
     
@@ -107,7 +108,7 @@ class TempControl:
         
     def get_labjack_info(self):
         info = ljm.getHandleInfo(self.handle)
-        print("\nLabjack Info:\nDevice type: %i, Connection type: %i,\n"
+        print("\nLabjack Connection:\nDevice type: %i, Connection type: %i,\n"
               "Serial number: %i, IP address: %s, Port: %i,\nMax bytes per MB: %i" %
               (info[0], info[1], info[2], ljm.numberToIP(info[3]), info[4], info[5]))
     

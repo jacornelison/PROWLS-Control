@@ -5,6 +5,7 @@ Created on Fri Jul 25 15:06:31 2025
 @author: jcornelison
 """
 
+import numpy as np
 from datetime import datetime
 import os
 import pickle as pk
@@ -68,17 +69,20 @@ class ProwlsIO:
     
     def load_scan(self,fname):
         with open(fname,'rb')as file:
-            self.pc.scan_data = pk.load(file)        
+            self.pc.scan_data = pk.load(file).astype(np.float64)        
         return
         
     def load_multiscan(self,fname):
         with open(fname,'rb')as file:
             self.pc.multiscan_data = pk.load(file)
+        for scanidx,scan in enumerate(self.pc.multiscan_data):
+            self.pc.multiscan_data[scanidx] = scan.astype(np.float64)
+        
         return
     
     def load_timestream(self,fname):
         with open(fname,'rb')as file:
-            self.pc.timestream_data = pk.load(file)
+            self.pc.timestream_data = pk.load(file).astype(np.float64)
         return
     
     

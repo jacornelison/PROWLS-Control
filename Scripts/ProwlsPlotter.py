@@ -29,12 +29,23 @@ class ProwlsPlotter():
         return fig
         
     
-    def plot_multiscan(self,fignum=1):
+    def plot_multiscan(self,fignum=1,apply_corr=False,iloc=None):
+        if iloc is None:
+            iloc = range(0,len(self.pc.multiscan_data))
         
         fig = plt.figure(fignum,figsize=(5,5))
         
-        for scanidx,scan in enumerate(self.pc.multiscan_data):
-            plt.plot(scan['Frequency'],scan['Lockin X'])       
+        for idx in iloc:
+            freq = self.pc.multiscan_data[idx]['Frequency']
+            spec = self.pc.multiscan_data[idx]['Lockin X']
+            
+            if apply_corr:
+                params = self.pc.multiscan_fits[idx]
+                spec = self.pc.tools.apply_spec_corr(freq,spec,params)
+
+            
+            plt.plot(freq,spec)
+            #plt.plot(freq-fshift,spec)       
         
         
         plt.xlabel('Frequency [GHz]')
@@ -45,4 +56,12 @@ class ProwlsPlotter():
         
         
         return fig
+    
+    # def plot_multiscan_X_vs_fits_Y(self,xkey,ykey,fignum=1,iloc=None):
+    #         if iloc is None:
+    #             iloc = range(0,len(self.pc.multiscan_data))
+            
+    #         fig = plt.figure(fignum,figsize=(5,5))
+                
+    #     return
         

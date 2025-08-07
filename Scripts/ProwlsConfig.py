@@ -12,6 +12,7 @@ class ProwlsConfig():
         self.datadir = os.path.join('..','Data')
         
         # Toptica Stuff
+        self.toptica_address = 'COM5' # Set to None if we don't know the address.
         self.bias_amplitude = 2.0
         self.bias_offset = 0
         self.bias_frequency = 1000
